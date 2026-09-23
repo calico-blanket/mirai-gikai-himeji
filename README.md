@@ -1,0 +1,220 @@
+# 姫路の議会を知る（仮称）
+
+令和7年第4回定例会の1会期を対象に、議案・議論・結果を読む非公式サービスです。現在はローカルで確認中で、公開していません。
+姫路市の公式サービスではありません。
+
+ソースコード： https://github.com/calico-blanket/mirai-gikai-himeji （公開リポジトリ。Webサイトは未公開）
+
+これは政党チームみらいが運営しているものではありません。参照元プロジェクトを参考に新規構築している独立したサービスです。[参照元プロジェクトガイドラインへの対応と公開前の残事項](GUIDELINE_COMPLIANCE.md)を記録しています。
+
+非エンジニア向けの操作は [使い方](USER_GUIDE.md)、2種類の説明と確認記録の設計は [読者モード](READER_MODES.md) を参照してください。
+この環境では `run-local.cmd` をダブルクリックして http://127.0.0.1:3005 を開けます。
+
+**公開範囲はプログラムと独自素材です。** 原資料・原文入りJSON・確認記録はローカル保持のため、クローンだけでは起動・データテスト・ビルドはできません。[データの復元とバックアップ](data/README.md)を参照してください。以下の検証結果は既存データのある開発環境での結果です。
+
+## 起動
+
+Node.js 20.9以上（作成時の確認環境: 22.17.1）、npmを使用します。
+
+```powershell
+cd <このプロジェクトのフォルダー>
+npm ci
+npm run dev
+```
+
+ブラウザで http://127.0.0.1:3000 を開きます。終了はターミナルで Ctrl+C。
+依存関係がインストール済みなら `npm ci` は省略できます。
+
+## 確認
+
+```powershell
+npm run typecheck
+npm run build
+```
+
+ビルド後の本番相当の表示は `npm start` で確認できます。
+
+## ファイルの役割
+
+- `app/layout.tsx`: 日本語設定、ページ情報、共通ヘッダー・フッター、本文へのスキップリンク。
+- `app/page.tsx`: トップページ。対象会期、準備状況、公式資料へのリンク。
+- `app/gians/`: 議案一覧と各議案の詳細ページ。
+- `data/himeji-2025-4.json`: 公式HTMLから取り込んだ1会期の画面用ローカルJSON。
+- `data/sources/`: 照合に使った公式HTMLと公式PDFの取得時点のコピー。
+- `data/candidates/`: PDF由来の議員・会派・賛否候補。議案本体JSONと分け、未確認と明示して画面に表示。
+- `reports/himeji-2025-4-review.md`: 原文照合の結果と原資料での確認箇所。
+- `scripts/import_himeji_html.py`: 公式HTMLの3表を解析し、JSON検証後に保存する手動取り込み。
+- `lib/data/council.ts`: 保存済みJSONを起動・ビルド時に検証して画面へ渡す入口。
+- `lib/data/candidate-validation.ts` / `vote-candidates.ts`: PDF候補の型・件数・出典・未確認状態と議案との一致を検査し、表示用に結び付ける入口。
+- `lib/data/bill-document.ts`: 公式の提出議案PDFを、明記された議案番号範囲だけに対応付ける。
+- `scripts/extract_bill_pages.py` / `data/candidates/himeji-2025-4-bill-pages.json`: 公式PDF4冊から51議案の本文開始ページを抽出し、番号・件名の照合段階を記録。
+- `scripts/import_council_bill_links.py` / `data/candidates/himeji-2025-4-council-bill-links.json`: 市議会の会期別一覧から52議案の公式詳細リンクを抽出。議論の発言リンクではありません。
+- `scripts/import_question_topics.py` / `data/candidates/himeji-2025-4-question-topics.json`: 公式の質疑・質問一覧から議案番号を明記した2項目を抽出。発言本文の照合とは別です。
+- `app/members/`: 採決結果PDFに載る議員と当該会期の会派見出しの一覧。
+- `app/sources/`: 議案本文、質疑・会議録、結果の公式資料への案内。議案詳細には発言との対応候補も表示します。
+- `app/review/`: 人による確認状況と、議案詳細・公式HTML・公式PDFへの照合導線。
+- `public/images/himeji-castle-illustration.webp`: 姫路の風景をイメージした生成イラスト。実景写真や公式画像ではありません。
+- `data/candidates/himeji-2025-4-vote-locations.json`: PDF上の議案ごとのページ・行。抽出スクリプトが照合用CSVとともに生成します。
+- `app/globals.css`: 共通の色・余白の変数、本文18px相当（1.125rem）、行間1.7、フォーカス表示。
+- `app/*.module.css`: 各画面の余白とスマートフォン・PC向けレイアウト。
+- `package.json` / `package-lock.json`: 実行コマンドと依存関係の固定。
+- `tsconfig.json` / `next-env.d.ts`: TypeScript・Next.jsの型設定。
+- `next.config.ts`: ビルド対象をこのプロジェクト内に限定し、AGENTS.mdへの自動追記を無効にする設定。
+
+## 実装範囲
+
+Step 1の画面、Step 2のデータ検証基盤、公式HTMLの議案一覧・詳細、PDF抽出候補の議員・会派一覧と議員別賛否表示です。トップには「内容・議論・結果」の入口を置き、議案一覧では言葉・種類・結果で、議案詳細の賛否候補は氏名・会派で絞り込めます。議案本文PDFは51件の開始ページに、姫路市議会の議案別詳細は52件にリンクします。いずれも機械照合・人による確認前です。
+Next.js App Router・TypeScript・React・CSS Modulesを使用。ページは静的に生成されます。
+外部フォントの取得はありません。トップ画像はローカルに保存した生成イラストです。
+議員別賛否は公式PDFからの機械抽出候補として画面に表示します。すべて人による原PDF照合前です。
+DB、ログイン、閲覧時のAI通信、AIチャット、自動更新は含みません。保存済みの分類52件、大人向け・小学生向けの説明各52件、本会議録の51案件・72件の発言対応候補を表示します。確認画面から説明の訂正や議論の保留を記録できます。
+
+## TypeSafe Jevの開発用Skill
+
+TypeSafe公式のAgent Skillを `.agents/skills/typesafe-ai/` に配置しています。
+Codexでこのプロジェクトを開き、必要なときに `$typesafe-ai` と指定すると、
+Jevを使う機能の設計・実装に関する指針として利用できます。
+Skillが表示されない場合はCodexを再起動してください。
+
+このSkillは開発支援用です。分野分類の手動生成スクリプトではJevを利用しています。閲覧・読み方切り替えでAPIは呼びません。キーはコード・JSON・ログに保存しません。一次資料との照合と人による確認をAI生成とは区別します。
+
+公式資料: https://www.city.himeji.lg.jp/shisei/0000032187.html
+
+議案52件は形式・参照関係を機械的に検証した取り込み結果です。
+議案第135号の4項目はユーザーが公式HTMLと目視照合しました。残る51案件は人による確認前です。
+議員別賛否候補は議案詳細に掲載しています。候補はすべて人による確認前です。
+
+## 公式資料の機械照合と賛否候補
+
+取得済みの公式HTMLと保存済み52件の議案番号・正式名称・概要・結果の原文を全件比較した結果は
+[照合メモ](reports/himeji-2025-4-review.md)を参照してください。機械照合で一致しても
+人の確認前には `verified` に変更しません。議案第135号のみユーザーの目視確認後に変更しました。
+残りの表記例外6件と無作為抽出5件を目視確認用に選びました。
+
+公式の採決PDFから、当該会期の議員名・会派見出しと各セルの記号を候補として抽出しました。
+全票のページ・行・列、原記号、正規化候補、出典、確認状態は
+`data/candidates/himeji-2025-4-vote-review.csv` で照合できます。
+`data/candidates/himeji-2025-4-vote-candidates.json` は既存スキーマで検証し、
+議案本体の `data/himeji-2025-4.json` と一致を確認してから、未確認候補として画面に表示します。
+現在の会派所属は取得・記録していません。
+
+再実行にはPython 3、Node.js 22.17以上と解析時専用のPyMuPDFが必要です。
+通常のNext.jsアプリの依存関係には追加していません。
+
+```powershell
+py -3 -m pip install --target .work/pdf -r scripts/requirements-vote-extraction.txt
+py -3 scripts/compare_himeji_html.py
+py -3 scripts/extract_himeji_votes.py
+node --experimental-strip-types scripts/validate-data.mjs data/candidates/himeji-2025-4-vote-candidates.json
+py -3 -m unittest discover -s tests -p "test_*.py"
+npm run test:data
+```
+
+これらは保存済み資料を読む手順です。公式サイトからの再取得は行いません。
+
+## Step 2: 将来のJSON形式と検証
+
+`lib/data/schema.ts` がJSONの形とTypeScriptの型を一元定義します。
+会期は1件、案件・議員・会派・採決当時の会派所属・議員別賛否・出典を
+それぞれ別の配列に記録します。各配列の宣言件数と実件数、IDの一意性と参照先、
+同じ案件・議員の票の重複、所属行の会期・議員の一致を検証します。
+
+原文 `raw` と正規化値 `value` を分けて保持します。`state` は `known`、
+`not_collected`（未取得）、`not_in_official_source`（公式資料に記載なし）、
+`unknown`（確認しても不明）を区別します。`unknown` では判読できない原文を
+残すこともできます。値を推測して埋めないでください。
+
+出典にはURLと取得日時、各行と出典には人による確認状態を記録します。
+通常の `parseCouncilData(unknown)` は未確認を含む作業用データを受け入れ、
+公開用の `parsePublishableCouncilData(unknown)` は全行・全出典の確認済みを要求します。
+確認済みでも内容の真偽を自動で保証するものではありません。
+
+```powershell
+npm run test:data
+npm run typecheck
+npm run build
+```
+
+`tests/data.test.mjs` の架空データは検証処理の確認専用で、画面や公開用JSONからは参照しません。
+`npm run test:data` はNode.js 22.17以降のTypeScript型除去機能を使います。
+アプリ本体の必要条件はNode.js 20.9以上です。
+
+## 公式HTMLの手動取り込みと表示
+
+公式ページの3表から52件を取り込み、`data/himeji-2025-4.json` に保存しています。
+公式HTMLの「件名」で角括弧に入った説明を「公式概要」として分け、
+記載がない6件は `not_in_official_source` として記録しました。
+原文と整理後の値は別に保存します。各項目に出典ID、取得日時、人による確認状態を保持します。
+議案第135号の議案行と4項目は `verified`、残る51案件は `unreviewed` です。
+
+再取得する場合のみ、次を手動で実行してください。Python 3とNode.js 22.17以降が必要です。
+公式HTMLの表の数・行数・結果表記が変わった場合は保存せずにエラーにします。
+
+```powershell
+py -3 scripts/import_himeji_html.py
+npm run test:data
+py -3 -m unittest discover -s tests -p "test_*.py"
+```
+
+トップページから「議案一覧を見る」を選ぶか、http://127.0.0.1:3000/gians を開きます。
+詳細ページでは公式HTMLの原文と、このサービスの番号表記などの整理を別の枠に表示します。
+全52件に短い説明案を追加し、各文の根拠となる公式概要や会議録の原文と別枠で表示しています。説明はすべて「AI作成・人の確認前」です。一覧で説明文の言葉を検索でき、確認ページでは注意が必要な17件を優先して見比べられます。設計・編集方法・検証結果は [EXPLANATIONS.md](EXPLANATIONS.md) を参照してください。
+議員・会派一覧は http://127.0.0.1:3000/members で開けます。議案詳細には45人分の賛否候補をPDFの列順で表示し、すべて人による確認前と明記します。
+原資料との確認箇所は http://127.0.0.1:3000/review で確認できます。PDFのページ・行は確認の手掛かりであり、人による照合済みの印ではありません。
+
+## 最終実装に向けた工程
+
+この工程はMVPで打ち切るための区切りではありません。人による確認が必要な内容は、確認記録なしに確定情報へ変えません。
+
+| フェーズ | 成果物 | 確認方法 |
+| --- | --- | --- |
+| 1. 原資料への照合導線（実装済み） | 議案別のPDFページ・行、確認状況ページ、優先確認候補 | 52議案と2,340票の位置照合テスト、スマホ・PC実画面 |
+| 2. 確認記録 | どの原文・PDFセルを誰がいつ照合したかを残すローカル手順と、確認済みだけを反映する仕組み | 未確認のままでは公開用検証に通らないこと、指定行のみ状態が変わることをテスト |
+| 3. 分野分類と議論の整理 | TypeSafe Jevの現行APIを確認して分野候補を生成。会議録と議案の対応を一次資料で検証し、確認できた議論だけを整理 | 代表例・境界例と発言の原文を人が点検し、未分類・未確認を残す。APIキーは環境変数のみで扱う |
+| 4. 公開前品質確認 | 資料の再照合、読みやすさ・アクセシビリティ・ビルドの最終確認、公開可否の明示 | テスト、型チェック、ビルド、スマホ・PC・キーボード操作と人による原資料確認 |
+
+TypeSafe Jevの分野分類処理と、候補・未作成・保留を分ける画面を実装しました。2026年9月23日の実APIによる全52案件の応答を保存・検証しています。21件に分野候補、31件に分類保留を表示し、未生成は0件です。すべて人による確認前で、議案第135号のHTML確認とは区別します。キーをコード、JSON、ログへ保存しない実行手順と確認結果は [TYPESAFE_TOPICS.md](TYPESAFE_TOPICS.md) を参照してください。
+
+現在は `/review#topic-review-heading` に分類の原文照合フォームがあります。議案を1件ずつ確認・修正・保留し、確認者と理由を付けたJSONをダウンロードできます。`scripts/import-topic-reviews.mjs` で検証・追記すると、分類だけに判断を反映します。元の議案・賛否の確認状態は変更しません。全件の分類生成は `.\scripts\run-topic-pilot.ps1 -All` です。手順と検証結果は [TYPESAFE_TOPICS.md](TYPESAFE_TOPICS.md) を参照してください。
+
+## Step 1当時の確認結果（現在の画面とは異なります）
+
+- `npm run typecheck`: 成功。
+- `npm run build`: 成功。トップページの静的生成を確認。
+- `npm run dev`: 起動成功。HTTP 200と指定文言・公式リンクのHTML出力を確認。
+- 文字と背景のコントラスト比: 本文13.94:1、補足文6.48:1、リンク8.06:1。
+- 実画面: 接続できるブラウザがなく、スマホ幅・PC幅、文字拡大、キーボード操作の実確認は未実施。
+
+手動確認では、開発者ツールで幅375pxと1280px、200%拡大時の表示、
+Tabキーでの「本文へ移動」と公式リンクのフォーカスを確認してください。
+
+その後の画面更新では、Chromeの実画面で375px・1280px、狭い320px、テキスト200%の一部画面を確認しています。データテスト、型チェック、ビルドは変更ごとに実行します。スクリーンリーダーでの読み上げや全画面の200%拡大は未確認です。
+# 人によるPDF確認記録
+
+## 議案本文の開始ページ
+
+姫路市公式の令和7年第4回定例会提出議案PDF4冊を `data/sources/R7-4*.pdf` に保存し、`scripts/extract_bill_pages.py` で本文の開始ページを抽出しました。必要な依存関係は `scripts/requirements-bill-documents.txt` です。`data/candidates/himeji-2025-4-bill-pages.json` には51件のPDF URL・ページ・取得日時・原PDFハッシュ・照合段階を記録しています。番号と正式名称が一致した45件、番号と件名の先頭が一致した6件は、いずれも人による確認前です。議員提出議案第7号のページは推測していません。画面の議案詳細から該当ページへ進めます。会議録の発言との対応はまだ確定していません。
+
+## 本会議録の議案別表示
+
+本会議5日分・661発言を保存し、51案件への72件の対応候補を議案詳細の「この議案はどう話し合われた？」に表示します。51件が提案理由の説明、残り21件が質問・答弁・委員長報告・討論です。同じ発言を複数案件へ対応させる場合があり、72は発言人数や独立した質疑の件数ではありません。すべて `unreviewed` です。
+
+- `scripts/fetch_himeji_minutes.py`：公式会議録画面の公開GETから対象会期5日分を取得。保存済みの原資料があれば再利用し、上書きしません。
+- `scripts/extract_himeji_discussions.py`：保存済み原文から段落単位の対応候補を再生成。Python標準ライブラリだけを使用します。
+- `data/sources/himeji-2025-4-minutes-*.json`：原レスポンス。`data/candidates/himeji-2025-4-minutes-sources.json` に出典URL、取得日時、原資料SHA-256、発言数を保存。取得日時は初回保存直後のファイル更新日時を基にしています。
+- `data/candidates/himeji-2025-4-discussions.json`：議案ID、発言ID、抜粋原文、段落番号、対応方式、文脈根拠。会派の推測や票の変更には使用しません。
+- `lib/data/discussion-validation.ts`：型と検証規則。会期、取得件数、出典の版、原文一致、ID、重複、根拠をチェックします。検証成功は人の確認を意味しません。
+- `/review`：第135号の項目番号による答弁対応、第163号の過年度番号、一括説明など、優先して原資料と比較する箇所への入口です。
+
+再生成は `python scripts/fetch_himeji_minutes.py`、`python scripts/extract_himeji_discussions.py` の順です。保存済みデータの再検証には `npm run test:data` と `python -m unittest discover -s tests -p "test_*.py"` を使用します。
+
+対象は本会議だけです。委員会内の会議録、議案番号を述べない続きの質疑、議員提出議案第7号との対応は未取得・未特定です。第135号への答弁1件は、質問の「初めに」、議長の指名、答弁の「1項目め」を根拠とする文脈候補です。独立した質問・答弁を結び付けた確定情報にはしません。公式会議録へのリンクは会議録IDと発言IDを指定しますが、ブラウザでの位置移動は未確認です。
+
+議案第135号の既存HTML確認記録だけを維持し、会議録候補や賛否に流用しません。会議録の人による確認を記録・反映する処理は、PDF票用台帳とは別に追加済みです。[使い方](USER_GUIDE.md)を参照してください。
+
+
+PDF候補の原JSONは機械抽出のまま保存します。`npm run review:prepare` は、議員名・会派見出し1組と賛否4ページ分の照合計画を標準出力に表示します。PDFと候補CSVを人が実際に見比べた範囲だけ、`data/candidates/himeji-2025-4-human-reviews.json` に記録します。現時点では空配列であり、PDF由来の票を確認済みとは扱いません。議案第135号の公式HTMLの確認記録は既存の議案JSONに保持しています。
+
+記録には `kind`（`votes` / `headers`）、PDFページ、行・列の範囲、PDF URLとSHA-256、候補値のSHA-256、確認者、ISO形式の確認日時、判定（`verified` / `needs_correction`）を入れます。`votes` は行・列の矩形範囲、`headers` は1ページ目の列範囲を指定します。照合計画の `reviewInstructions` は作業用の案内なので、記録へ入れません。範囲を変更した場合は候補値のハッシュを `candidateDigest` で作り直してください。値の相違は `needs_correction` と `note` に記録し、該当の候補を修正・再照合するまで確認済みにしません。
+
+記録の検証は、原PDFの版、候補値、URL、範囲、重複、確認者・日時をチェックします。有効な `verified` 記録に含まれる票だけを画面で区別します。PDF見出しの確認記録は票の確認を意味せず、採決日ごとの会派所属変更まで確定させません。公式HTMLの議案4項目や会議録については、このPDF確認記録では承認しません。

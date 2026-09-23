@@ -1,0 +1,59 @@
+.page { max-width: 58rem; }
+.breadcrumb, .kicker { color: var(--color-muted); font-size: 0.9375rem; }
+.breadcrumb { margin-bottom: var(--space-4); }
+.breadcrumb span { margin-inline: 0.4rem; }
+.kicker { font-weight: 700; }
+.page h1 { font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(2rem, 1.5rem + 2vw, 2.8rem); line-height: 1.45; margin-top: var(--space-1); }
+.lead { margin-top: var(--space-3); }
+.summary { margin-top: var(--space-4); background: var(--color-surface); padding: var(--space-3); }
+.summary h2, .section h2 { font-size: 1.5rem; line-height: 1.5; }
+.summary ul, .section ol { padding-left: 1.5rem; }
+.summary li + li, .section li + li { margin-top: var(--space-1); }
+.summary p { margin-top: var(--space-2); }
+.section { margin-top: var(--space-5); }
+.section h2 { margin-bottom: var(--space-2); }
+.list { list-style: none; padding: 0; margin: var(--space-3) 0 0; }
+.list li { border-top: 1px solid var(--color-border); padding: var(--space-2) 0; display: flex; flex-wrap: wrap; gap: 0.25rem var(--space-2); justify-content: space-between; }
+.list span { color: var(--color-muted); font-size: 1rem; }
+.section code { overflow-wrap: anywhere; }
+@media (min-width: 48rem) { .summary { padding: var(--space-4); } }
+.workbench { margin-top: var(--space-4); }
+.workbench > label, .reviewForm > label { display: block; font-weight: 700; }
+.workbench select, .reviewForm > input, .reviewForm textarea { width: 100%; min-width: 0; padding: 0.65rem; border: 1px solid var(--color-muted); border-radius: 0.25rem; background: var(--color-background, #fff); color: var(--color-text); font: inherit; }
+.reviewCard { margin-top: var(--space-3); border-top: 2px solid var(--color-border); padding-top: var(--space-3); }
+.reviewCard h3 { font-size: 1.3rem; }
+.reviewCard h4 { font-size: 1.125rem; margin-top: var(--space-3); }
+.sourceText { background: var(--color-surface); padding: var(--space-2); margin: var(--space-3) 0; overflow-wrap: anywhere; }
+.sourceText blockquote { margin: 0.5rem 0; white-space: pre-wrap; border-inline-start: 3px solid var(--color-border); padding-inline-start: 1rem; }
+.sourceText p { font-size: 1rem; }
+.reviewForm { display: grid; gap: var(--space-2); margin-top: var(--space-3); }
+.reviewForm fieldset { min-width: 0; border: 1px solid var(--color-border); padding: var(--space-2); }
+.reviewForm fieldset label { display: block; padding-block: 0.4rem; }
+.reviewForm input[type="radio"], .reviewForm input[type="checkbox"] { width: 1.2rem; height: 1.2rem; margin-inline-end: 0.6rem; vertical-align: middle; accent-color: var(--color-accent); }
+.reviewForm button { font: inherit; color: #fff; background: var(--color-accent); border: 0; border-radius: 0.25rem; padding: 0.8rem 1rem; cursor: pointer; }
+.reviewForm p { margin: 0; }
+.importHelp { margin-top: var(--space-3); }
+.importHelp pre { white-space: pre-wrap; overflow-wrap: anywhere; background: var(--color-surface); padding: var(--space-2); }
+.section > details { margin-block: var(--space-2); }
+.section > details > summary { cursor: pointer; padding: var(--space-2); background: var(--color-surface); font-weight: 700; }
+.explanationReviewList { list-style: none; padding: 0; }
+.explanationReviewList > li { border-top: 1px solid var(--color-border); padding-block: var(--space-3); }
+.explanationReviewList h3 { font-size: 1.125rem; margin: 0 0 var(--space-1); }
+.explanationReviewList p + p { margin-top: var(--space-1); }
+.explanationReviewList ul { padding-left: 1.25rem; color: var(--color-muted); font-size: 1rem; }
+.comparison { display: grid; gap: var(--space-3); margin-block: var(--space-3); }
+.comparison > div { min-width: 0; background: var(--color-surface); padding: var(--space-2); }
+.comparison h4 { margin: 0 0 var(--space-2); font-size: 1.125rem; }
+.comparison p + p, .comparison details + details { margin-top: var(--space-2); }
+.comparison details > summary { padding-block: 0.65rem; cursor: pointer; font-weight: 700; }
+.comparison blockquote { margin-inline: 0; border-inline-start: 3px solid var(--color-border); padding-inline-start: var(--space-2); }
+.preserveLines { white-space: pre-wrap; overflow-wrap: anywhere; }
+.small { font-size: 0.9375rem; color: var(--color-muted); }
+.workbenchControls { display: grid; gap: var(--space-1); margin-block: var(--space-3); }
+.workbenchControls input { font: inherit; min-width: 0; width: 100%; padding: 0.65rem; }
+.queuePanel { padding: var(--space-2); border: 1px solid var(--color-border); }
+.queuePanel button { font: inherit; padding: 0.6rem; color: var(--color-accent); background: white; border: 1px solid var(--color-accent); cursor: pointer; }
+.queuePanel ul { padding-left: 1.25rem; }
+.correctionRow { margin-block: var(--space-2); }
+.correctionRow > label { display: block; font-weight: 700; }
+@media (min-width: 64rem) { .comparison { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }

@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light;
+  --color-background: #fffcf7;
+  --color-surface: #edf5f4;
+  --color-text: #27383c;
+  --color-muted: #52646b;
+  --color-accent: #245d69;
+  --color-border: #c5d5d7;
+  --color-focus: #964300;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4.5rem;
+  --content-width: 68rem;
+}
+
+* { box-sizing: border-box; }
+html { font-size: 100%; }
+body {
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+h1, h2, p { margin: 0; }
+a { color: var(--color-accent); text-underline-offset: 0.25em; text-decoration-thickness: 0.08em; }
+a:hover { text-decoration-thickness: 0.15em; }
+:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 5px; }
+::selection { background: #dce9df; color: var(--color-text); }
+[hidden] { display: none !important; }
+rt { font-size: .6em; font-weight: 400; }
+ruby { ruby-align: center; }
+.reader-switch { padding-block: .8rem; }
+.reader-switch > div { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+.reader-switch span { font-size: .9rem; font-weight: 700; margin-right: .5rem; }
+.reader-switch button { min-height: 44px; border: 1px solid var(--color-accent); border-radius: 2rem; padding: .5rem 1rem; color: var(--color-accent); background: #fff; font: inherit; font-size: 1rem; cursor: pointer; }
+.reader-switch button[aria-pressed=true] { color: #fff; background: var(--color-accent); font-weight: 700; box-shadow: 0 0 0 2px white, 0 0 0 3px var(--color-accent); }
+.reader-switch p { margin-top: .6rem; color: var(--color-muted); font-size: .875rem; }
+[data-reader-content=child] { line-height: 2.05; }

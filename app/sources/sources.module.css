@@ -1,0 +1,16 @@
+.page { max-width: 57rem; }
+.breadcrumb { color: var(--color-muted); font-size: 0.9375rem; margin-bottom: var(--space-4); }
+.breadcrumb span { margin-inline: 0.4rem; }
+.kicker, .step { color: var(--color-accent); font-size: 0.9375rem; font-weight: 800; letter-spacing: 0.04em; }
+.page h1 { font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: clamp(2rem, 1.5rem + 2vw, 2.8rem); line-height: 1.45; margin-top: var(--space-1); }
+.lead { margin-top: var(--space-2); }
+.section { border-top: 1px solid var(--color-border); padding-top: var(--space-4); margin-top: var(--space-5); scroll-margin-top: 2rem; }
+.section h2 { font-size: 1.5rem; margin-block: var(--space-1) var(--space-2); }
+.links { list-style: none; padding: 0; margin: var(--space-3) 0 0; }
+.links li { border-left: 3px solid var(--color-border); padding: var(--space-1) var(--space-2); margin-block: var(--space-2); }
+.links a { display: block; font-weight: 700; padding-block: 0.2rem; }
+.links span { display: block; font-size: 0.9375rem; color: var(--color-muted); }
+.note { background: var(--color-surface); padding: var(--space-3); margin-top: var(--space-5); }
+.note h2 { font-size: 1.25rem; }
+.note p { margin-top: var(--space-2); }
+.note a { display: inline-block; font-weight: 700; margin-top: var(--space-2); }

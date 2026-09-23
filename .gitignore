@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+npm-debug.log*
+.screenshots/
+data-source.html
+__pycache__/
+*.pyc
+.work/
+.agents/
+.codex/
+*.backup
+*.tmp
+*.log
+# 原資料・引用入りデータは再配布条件の確認までローカル保持。
+/data/*
+!/data/README.md
+/reports/
