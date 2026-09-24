@@ -4,17 +4,24 @@ import { discussionKindLabel } from "../../../lib/data/discussion-validation";
 import styles from "../gians.module.css";
 import { contentReviews } from "../../../lib/data/content-review-data";
 import { contentDecisionLabel } from "../../../lib/data/content-review-schema";
+import { committeePagesForId } from "../../../lib/data/committee-pages";
 
 export default function DiscussionList({ itemId }: { itemId: string }) {
   const candidates = discussionsForId(itemId);
   const rows = candidates.filter((row) => !["rejected", "withheld"].includes(contentReviews.active.get(`discussion:${row.id}`)?.decision ?? ""));
   const confirmed = rows.filter((row) => contentReviews.active.get(`discussion:${row.id}`)?.decision === "confirmed").length;
+  const committeePages = committeePagesForId(itemId);
   return <>
     <div className={styles.notice} role="note">
       <strong>会議録と議案の対応は、発言ごとに確認状態を表示しています</strong>
       <p>本会議5日分から{candidates.length}件の対応候補を抽出し、{rows.length}件を表示しています。表示中のうち人による対応確認の記録は{confirmed}件です。見出しと分類はこのサービスによる整理、引用部分は公式会議録の原文です。発言者の見解を市や当サービスの判断として示すものではありません。</p>
-      <p>委員会そのものの会議録や、番号を述べずに続く質疑は網羅していません。掲載がないことは「議論がなかった」という意味ではありません。</p>
+      <p>委員会の質疑本文や、番号を述べずに続く質疑は網羅していません。掲載がないことは「議論がなかった」という意味ではありません。</p>
     </div>
+    {committeePages.length > 0 && <div className={styles.notice} role="note">
+      <strong>委員会PDFで議案番号が見つかったページ（機械抽出・人による確認前）</strong>
+      <p>この議案番号の文字列があるページへの参照候補です。質疑の有無や内容、議案との対応を確認したものではありません。</p>
+      <ul>{committeePages.map((row) => <li key={`${row.file}-${row.page}`}><a href={row.url}>姫路市公式の委員会PDF {row.page}ページ目 <span aria-hidden="true">↗</span></a><span className={styles.documentHint}>（{row.file}）</span></li>)}</ul>
+    </div>}
     {rows.length > 0 && <nav className={styles.onThisPage} aria-label="議論の種類から原文へ進む">{Object.entries(discussionKindLabel).map(([kind, label]) => {
       const matches = rows.filter((row) => row.kind === kind);
       return matches.length ? <a key={kind} href={`#speech-${matches[0].speechId}`}>{label}（対応候補{matches.length}件）</a> : null;
