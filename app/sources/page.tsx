@@ -3,6 +3,7 @@ import Link from "next/link";
 import { officialSource } from "../../lib/data/council";
 import { pdfSource } from "../../lib/data/vote-candidates";
 import { discussions } from "../../lib/data/discussions";
+import { committeeBillCount, committeePageCount } from "../../lib/data/committee-pages";
 import styles from "./sources.module.css";
 
 export const metadata: Metadata = {
@@ -55,7 +56,7 @@ export default function SourcesPage() {
         <p className={styles.step}>02 / 議論を追う</p>
         <h2 id="discussion-heading">どんな質疑があったか</h2>
         <p>本会議5日分・発言等{discussions.speechCount}記録（議長進行・出席者一覧を含む）を保存し、51案件に{discussions.rows.length}件の対応候補を掲載しています。各議案詳細で、提案理由の説明、質問、答弁、委員長報告、討論の原文を読めます。議案との結び付けと分類は当サービスの機械処理で、人による確認前です。</p>
-        <p>委員会そのものの会議録や、議案番号のない続きの質疑は網羅していません。議員提出議案第7号の対応発言は特定できていません。</p>
+        <p>委員会記録12冊から議案番号のある{committeePageCount}ページを抽出し、{committeeBillCount}議案の詳細から公式PDFへ進めます。番号の掲載ページだけを示すもので、委員会の質疑本文や番号のない続きの質疑は対応付けていません。議員提出議案第7号の対応発言は特定できていません。</p>
         <ul className={styles.links}>{discussions.sources.map((source) => <li key={source.recordId}><a href={source.url}>{source.meetingDate}の公式本会議録</a><span>発言等{source.speechCount}記録を取得・人による確認前</span></li>)}</ul>
         <ul className={styles.links}>
           <li><a href={questions}>姫路市議会：質疑・質問一覧 <span aria-hidden="true">↗</span></a><span>会議名を指定して質問内容を探す</span></li>
@@ -63,7 +64,7 @@ export default function SourcesPage() {
           <li><a href={meetingSchedule}>姫路市：この定例会の会議日程表 <span aria-hidden="true">↗</span></a><span>質疑・委員会・表決の日程を確認する</span></li>
         </ul>
         <h3>この会期中の委員会記録</h3>
-        <p>姫路市が公開する委員会記録への入口です。各PDFには議案以外の話題も含まれます。この一覧は、委員会の発言を個別の議案に結び付けたり、内容を人が確認したことを意味しません。</p>
+        <p>姫路市が公開する委員会記録への入口です。各PDFには議案以外の話題も含まれます。議案詳細のページ参照候補も、委員会の発言を個別の議案に結び付けたり、内容を人が確認したことを意味しません。</p>
         <ul className={styles.links}>
           {committeeRecords.map((record) => <li key={record.file}><a href={`${committeeBase}${record.file}`}>{record.label}（公式PDF） <span aria-hidden="true">↗</span></a></li>)}
           <li><a href={committeeIndex}>姫路市：令和7年の委員会記録一覧 <span aria-hidden="true">↗</span></a><span>上記以外の委員会記録も探せます</span></li>

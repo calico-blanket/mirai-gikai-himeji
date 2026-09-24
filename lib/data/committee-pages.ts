@@ -1,6 +1,6 @@
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
-type Source = { file: string; url: string; sha256: string; pages: number };
+type Source = { label: string; file: string; url: string; sha256: string; pages: number };
 type Row = { itemId: string; file: string; page: number };
 type Candidate = { sessionId: string; method: string; reviewStatus: string; retrievedAt: string; sources: Source[]; rows: Row[] };
 const candidate = JSON.parse(readFileSync("data/candidates/himeji-2025-4-committee-pages.json", "utf8")) as Candidate;
@@ -13,7 +13,7 @@ if (candidate.sessionId !== "himeji-2025-4" || candidate.method !== "explicit_nu
   throw new Error("委員会PDF候補の会期・抽出方法・確認状態が不正です");
 }
 const sources = new Map(candidate.sources.map((source) => {
-  if (!/^[A-Za-z0-9]+\.pdf$/.test(source.file) || source.url !== `${base}${source.file}` || !Number.isInteger(source.pages) || source.pages < 1) {
+  if (!source.label?.trim() || !/^[A-Za-z0-9]+\.pdf$/.test(source.file) || source.url !== `${base}${source.file}` || !Number.isInteger(source.pages) || source.pages < 1) {
     throw new Error("委員会PDF出典が不正です");
   }
   const pdf = readFileSync(`data/sources/committee-pdfs/${source.file}`);
@@ -37,6 +37,7 @@ export function committeePagesForId(itemId: string) {
     url: `${base}${row.file}#page=${row.page}`,
     page: row.page,
     file: row.file,
+    label: sources.get(row.file)!.label,
     retrievedAt: candidate.retrievedAt,
   }));
 }

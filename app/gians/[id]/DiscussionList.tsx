@@ -20,7 +20,7 @@ export default function DiscussionList({ itemId }: { itemId: string }) {
     {committeePages.length > 0 && <div className={styles.notice} role="note">
       <strong>委員会PDFで議案番号が見つかったページ（機械抽出・人による確認前）</strong>
       <p>この議案番号の文字列があるページへの参照候補です。質疑の有無や内容、議案との対応を確認したものではありません。</p>
-      <ul>{committeePages.map((row) => <li key={`${row.file}-${row.page}`}><a href={row.url}>姫路市公式の委員会PDF {row.page}ページ目 <span aria-hidden="true">↗</span></a><span className={styles.documentHint}>（{row.file}）</span></li>)}</ul>
+      <ul>{committeePages.map((row) => <li key={`${row.file}-${row.page}`}><a href={row.url}>{row.label}：公式PDF {row.page}ページ目 <span aria-hidden="true">↗</span></a></li>)}</ul>
     </div>}
     {rows.length > 0 && <nav className={styles.onThisPage} aria-label="議論の種類から原文へ進む">{Object.entries(discussionKindLabel).map(([kind, label]) => {
       const matches = rows.filter((row) => row.kind === kind);
