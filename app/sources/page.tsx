@@ -15,6 +15,22 @@ const meetingSchedule = "https://www.city.himeji.lg.jp/shisei/0000032092.html";
 const questions = "https://himeji.gijiroku.com/g07_Shitsumon.asp";
 const minutes = "https://himeji.gijiroku.com/index_s.asp";
 const councilBills = "https://himeji.gijiroku.com/g07_giketsu_s.asp?kaigi=122&sflg=2";
+const committeeIndex = "https://www.city.himeji.lg.jp/shisei/0000030346.html";
+const committeeBase = "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/";
+const committeeRecords = [
+  { label: "12月9日 予算決算委員会全体会", file: "20251209yosannkessanniinkaizenntaikai.pdf" },
+  { label: "12月10日 文教・子育て委員会", file: "1210bunnkyoukosodate.pdf" },
+  { label: "12月10日 厚生委員会", file: "1210kousei.pdf" },
+  { label: "12月10日 経済観光委員会", file: "20251210keizaikannkou.pdf" },
+  { label: "12月10日 予算決算委員会厚生分科会", file: "1210yosannkessannkousei.pdf" },
+  { label: "12月10日 予算決算委員会経済観光分科会", file: "20251210yosannkessanniinnkaibunnkakaki.pdf" },
+  { label: "12月11日 総務委員会", file: "1211soumu.pdf" },
+  { label: "12月11日 建設委員会", file: "20251211kennsetu.pdf" },
+  { label: "12月11日 予算決算委員会総務分科会", file: "1211yosannkessansoumu.pdf" },
+  { label: "12月16日 総務委員会", file: "1216soumu.pdf" },
+  { label: "12月16日 文教・子育て委員会", file: "1216bunnkyoukosodate.pdf" },
+  { label: "12月16日 予算決算委員会全体会", file: "20251216yosannkessanniinnkai.pdf" },
+] as const;
 
 export default function SourcesPage() {
   return (
@@ -45,6 +61,12 @@ export default function SourcesPage() {
           <li><a href={questions}>姫路市議会：質疑・質問一覧 <span aria-hidden="true">↗</span></a><span>会議名を指定して質問内容を探す</span></li>
           <li><a href={minutes}>姫路市議会：会議録検索システム <span aria-hidden="true">↗</span></a><span>本会議・委員会の記録を原文で探す</span></li>
           <li><a href={meetingSchedule}>姫路市：この定例会の会議日程表 <span aria-hidden="true">↗</span></a><span>質疑・委員会・表決の日程を確認する</span></li>
+        </ul>
+        <h3>この会期中の委員会記録</h3>
+        <p>姫路市が公開する委員会記録への入口です。各PDFには議案以外の話題も含まれます。この一覧は、委員会の発言を個別の議案に結び付けたり、内容を人が確認したことを意味しません。</p>
+        <ul className={styles.links}>
+          {committeeRecords.map((record) => <li key={record.file}><a href={`${committeeBase}${record.file}`}>{record.label}（公式PDF） <span aria-hidden="true">↗</span></a></li>)}
+          <li><a href={committeeIndex}>姫路市：令和7年の委員会記録一覧 <span aria-hidden="true">↗</span></a><span>上記以外の委員会記録も探せます</span></li>
         </ul>
       </section>
 
