@@ -1,4 +1,7 @@
 .page { max-width: 58rem; }
+.bulkNotice { background: var(--color-surface); border: 2px solid var(--color-focus); border-radius: 0.25rem; padding: var(--space-3); margin-top: var(--space-4); }
+.bulkNotice h2 { font-size: 1.25rem; }
+.bulkNotice p + p { margin-top: var(--space-2); }
 .breadcrumb, .kicker { color: var(--color-muted); font-size: 0.9375rem; }
 .breadcrumb { margin-bottom: var(--space-4); }
 .breadcrumb span { margin-inline: 0.4rem; }

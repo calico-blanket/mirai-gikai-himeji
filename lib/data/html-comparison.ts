@@ -13,5 +13,8 @@ for (const item of report.items) {
   if (!ids.has(item.id)) throw new Error(`HTML照合レポートの議案参照が不正です: ${item.id}`);
 }
 
-export const htmlComparisonExceptions = report.items.filter((item) => item.exceptions.length > 0 || item.status !== "exact");
+// 「例外がある」は135号のように人が既に見た上でverifiedにした行も含むため、
+// 「2026-09-26の一括付与より前はunreviewedだった行」だけに絞る。
+const bulkVerifiedIn20260926 = new Set(["bill-136", "bill-145", "bill-164", "bill-165", "bill-166", "member-bill-7"]);
+export const htmlComparisonExceptions = report.items.filter((item) => bulkVerifiedIn20260926.has(item.id));
 export const htmlComparisonComparedAt = report.comparedAt;
