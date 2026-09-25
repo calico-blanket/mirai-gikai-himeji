@@ -15,19 +15,9 @@ import ExplanationReview from "./ExplanationReview";
 import ContentReviewSection from "./ContentReviewSection";
 import { contentReviews } from "../../lib/data/content-review-data";
 import { checkVoteConsistency } from "../../lib/data/vote-consistency";
+import { htmlComparisonExceptions, htmlComparisonComparedAt } from "../../lib/data/html-comparison";
 
 export const metadata: Metadata = { title: "原資料との確認箇所 | 姫路の議会を知る" };
-
-const priorityIds = [
-  "bill-136", "bill-145", "bill-164", "bill-165", "bill-166", "member-bill-7",
-  "bill-149", "bill-142", "inquiry-5", "bill-153", "inquiry-10",
-];
-
-const priority = priorityIds.map((id) => {
-  const item = council.items.find((entry) => entry.id === id);
-  if (!item) throw new Error(`確認候補の議案が見つかりません: ${id}`);
-  return item;
-});
 
 export default function ReviewPage() {
   const verifiedItems = council.items.filter((item) => item.reviewStatus === "verified");
@@ -133,23 +123,13 @@ export default function ReviewPage() {
       </section>
 
       <section className={styles.section} aria-labelledby="priority-heading">
-        <h2 id="priority-heading">先に見てほしい11件</h2>
-        <p>表記が特殊な6件と、固定した無作為抽出の5件です。確認済みという意味ではありません。</p>
-        <ul className={styles.list}>
-          {priority.map((item) => {
-            const position = pdfLocations.get(item.id)!;
-            return <li key={item.id}><Link href={`/gians/${item.id}`}>{item.officialNumber.raw}の詳細</Link><span>PDF {position.page}ページ・{position.row}行／人による確認前</span></li>;
-          })}
-        </ul>
-      </section>
-
-      <section className={styles.section} aria-labelledby="all-heading">
-        <h2 id="all-heading">確認前の全{pendingItems.length}件</h2>
-        <p>各行から議案の原文表示とPDF上の位置へ進めます。PDFのページ指定が開けない閲覧環境では、PDFを開いて記載のページへ移動してください。</p>
+        <h2 id="priority-heading">確認前の全{pendingItems.length}件</h2>
+        <p>公式HTMLとの機械照合（{htmlComparisonComparedAt}実施）で、件名セルの構造・番号表記が理由で自動一致と判定できなかった議案です。原文の文字自体は候補と一致していますが、この理由が実際の公式ページと合っているかは未確認です。</p>
         <ul className={styles.list}>
           {pendingItems.map((item) => {
             const position = pdfLocations.get(item.id)!;
-            return <li key={item.id}><Link href={`/gians/${item.id}`}>{item.officialNumber.raw}の詳細</Link><a href={`${pdfSource.url}#page=${position.page}`}>公式PDF {position.page}ページ・{position.row}行</a></li>;
+            const exception = htmlComparisonExceptions.find((row) => row.id === item.id);
+            return <li key={item.id}><Link href={`/gians/${item.id}`}>{item.officialNumber.raw}の詳細</Link><span>{exception?.exceptions.join("、") ?? "要確認"}</span><a href={`${pdfSource.url}#page=${position.page}`}>公式PDF {position.page}ページ・{position.row}行</a></li>;
           })}
         </ul>
       </section>
