@@ -22,14 +22,13 @@ test("公式HTMLの例外的な表記・概要欠測・否決が原文のまま�
   assert.equal(memberBill.result.value, "rejected");
 });
 
-test("議案135号だけが人の確認済みで、他の案件と出典は未確認のまま", () => {
+test("議案本文の出典は未確認のまま、各議案のitemとfieldEvidenceの状態は一致する", () => {
   for (const item of snapshot.items) {
-    const expectedStatus = item.id === "bill-135" ? "verified" : "unreviewed";
-    assert.equal(item.reviewStatus, expectedStatus);
+    const expectedStatus = item.reviewStatus;
     for (const key of ["officialNumber", "title", "officialSummary", "result"]) {
       assert.equal(item.fieldEvidence[key].sourceId, snapshot.sources[0].id);
       assert.equal(item.fieldEvidence[key].retrievedAt, snapshot.sources[0].retrievedAt);
-      assert.equal(item.fieldEvidence[key].reviewStatus, expectedStatus);
+      assert.equal(item.fieldEvidence[key].reviewStatus, expectedStatus, `${item.id}.${key}`);
     }
   }
   assert.equal(snapshot.sources[0].reviewStatus, "unreviewed");

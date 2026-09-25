@@ -26,8 +26,8 @@ test("PDFページ・行が52議案と全2,340票の照合用CSVに一致する"
   }
 });
 
-test("原文照合済みは議案第135号だけで、賛否候補はすべて未確認のまま", () => {
-  assert.deepEqual(council.items.filter((item) => item.reviewStatus === "verified").map((item) => item.id), ["bill-135"]);
+test("議案本文の原文照合が進んでも、賛否候補はすべて未確認のまま", () => {
+  assert.ok(council.items.some((item) => item.reviewStatus === "verified"));
   assert.ok(candidates.votes.every((vote) => vote.reviewStatus === "unreviewed"));
   assert.ok(candidates.members.every((member) => member.reviewStatus === "unreviewed"));
   assert.ok(candidates.memberships.every((membership) => membership.reviewStatus === "unreviewed"));

@@ -15,7 +15,11 @@ __pycache__/
 *.backup
 *.tmp
 *.log
-# 原資料・引用入りデータは再配布条件の確認までローカル保持。
-/data/*
-!/data/README.md
-/reports/
+# 原資料そのもの（公式PDF/HTML/会議録API原本）は著作物の複製にあたるため非公開。
+# 事実データ・AI生成物（議案JSON・分野分類・説明文・会議録の該当段落抜粋等）は
+# 2026年9月26日の方針見直しでGit管理下に戻した。
+/data/sources/
+# reports/はビルドが読む照合結果（事実データの比較のみ）だけ例外的に管理下に置く。
+# 検証ログ・PDF・スクリーンショット等の開発時成果物は引き続き除外。
+/reports/*
+!/reports/himeji-2025-4-html-comparison.json

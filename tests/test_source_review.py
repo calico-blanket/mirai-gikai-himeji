@@ -19,12 +19,11 @@ class SourceReviewTests(unittest.TestCase):
         cls.saved = json.loads((ROOT / "data/himeji-2025-4.json").read_text(encoding="utf-8"))
         cls.html = (ROOT / "data/sources/himeji-2025-4.html").read_text(encoding="utf-8")
 
-    def test_all_52_original_fields_match_and_only_135_is_human_verified(self):
+    def test_all_52_original_fields_match_and_all_are_human_verified(self):
         report = compare(self.saved, self.html)
         self.assertEqual(report["officialRowCount"], 52)
         self.assertEqual(report["statusCounts"], {"exact": 52, "different": 0, "uncomparable": 0})
-        self.assertEqual([row["id"] for row in report["items"] if row["humanReviewStatus"] == "verified"], ["bill-135"])
-        self.assertTrue(all(row["humanReviewStatus"] == "unreviewed" for row in report["items"] if row["id"] != "bill-135"))
+        self.assertTrue(all(row["humanReviewStatus"] == "verified" for row in report["items"]))
 
     def test_changed_original_is_detected(self):
         changed = copy.deepcopy(self.saved)

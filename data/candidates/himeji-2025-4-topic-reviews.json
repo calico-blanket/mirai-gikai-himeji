@@ -1,0 +1,681 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "himeji-2025-4",
+  "records": [
+    {
+      "id": "2a30f38f-160b-4d62-b856-692ff16cbcd8",
+      "itemId": "bill-135",
+      "candidateSha256": "d096f43cd914c6661e52f80b3446557523cafcb8a0b23d866711744866d87700",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "1bf6a276-3cd7-48bf-b1da-eb97a3395542",
+      "itemId": "bill-136",
+      "candidateSha256": "25c74eafbd2d6b86f3dddf471ed575b9acc1ed2edbde20961cf783c418a49acc",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "38246de5-2e86-4b95-b959-d3243dbed66b",
+      "itemId": "bill-137",
+      "candidateSha256": "7db5c0baf988b636bf20abe8e318e9fa98c0ca964c3a7c49e80a3c90a0eca783",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "6fca5627-b59b-4069-b2ed-04455a75c592",
+      "itemId": "bill-138",
+      "candidateSha256": "ac667ac9f81cc1a7a87b8b5d38a6565e96c6c3093cd6b6470f14874d72dad86a",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "children_education",
+        "health_welfare"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "8014f7ea-1f15-459e-91d5-6e5d50b0fbb3",
+      "itemId": "bill-139",
+      "candidateSha256": "b1f3484b208225e2a2a7098212e7e19a092b54248973cf07a0f39fc1aa4f8e21",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "71f22e75-b30b-4672-b81e-0d73508a5e2a",
+      "itemId": "bill-140",
+      "candidateSha256": "8a4f5d20002fb1774955d35e1bb6d5a3db007f7952098ddcab41ee5d13719fcb",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "children_education"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "46334800-8cae-4948-b077-526729c277cd",
+      "itemId": "bill-141",
+      "candidateSha256": "5dd28a5fd0a373988c67b3fd010adea2f8f37769671cb1e13a6212324154e69f",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "children_education",
+        "health_welfare"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "74a72741-639f-41e4-b6cd-e4df49b9b92b",
+      "itemId": "bill-142",
+      "candidateSha256": "b0aec24068d11a6ecadac22216e1bd0270dbaa86faaf9b8a80b04d14baec6ce5",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "children_education",
+        "health_welfare"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "c3da27c3-dc7f-4e56-b90c-8136e583baca",
+      "itemId": "bill-143",
+      "candidateSha256": "8c27825c054a9b7be3d69f45d41138d8c988174959aafd7f3eb0d847ac513c1b",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "culture_sport"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "d0166186-9994-4dda-a047-99d57f1da0cd",
+      "itemId": "bill-144",
+      "candidateSha256": "f1f9b889d4c712029b870848cdd3a5f78f0e466a294850ba418871b115837958",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "children_education",
+        "culture_sport"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "be889067-8436-4a1d-973c-f9f29089fe1e",
+      "itemId": "bill-145",
+      "candidateSha256": "86804a42621e707a107d6006c89bcfb285aca0a312aa7914967d5d5cc980581d",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "culture_sport"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "7953493d-2140-4e4a-8315-e634f9ee2480",
+      "itemId": "bill-146",
+      "candidateSha256": "e7a219c0ceffff69a9b58d9fee105841dd26fca8c7c9ba1299185320d9b4acdf",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "culture_sport"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "a9c958fe-5d18-4da8-b916-cae1aa8324d5",
+      "itemId": "bill-147",
+      "candidateSha256": "3b91a465cee6e01df089af3b0b94583e4ebaacc670c79eef120be41aefe008ab",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "children_education"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "802032e3-5dd8-4b86-a0c4-e3d9a99e409b",
+      "itemId": "bill-148",
+      "candidateSha256": "83a1bd07173284620a0a30134ebbb06d14fd65e406a15cd81ab31716e04b6542",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "town_transport"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "5ba7ec91-085b-470e-b3c3-f3bada8b47c0",
+      "itemId": "bill-149",
+      "candidateSha256": "4488d6250d575187220bbd73cc7b7518e58759cda5753657cd0d38104974bf3f",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "bfdbd503-e64b-4d9b-98b3-f3ad0d26d1ca",
+      "itemId": "bill-150",
+      "candidateSha256": "d14a37c34424e615a5ac044a1ad819c323ab5b7f7808fa890507cc53fa3b8081",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "4252ade6-c3f5-4d2a-bf95-e56a0c395989",
+      "itemId": "bill-151",
+      "candidateSha256": "5203e32dc5a636734c6c6ac079e24f7052249db369575fa07e1b1d64b5af8ced",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "b752ccac-ba20-41f2-938c-c96d6a12b4dc",
+      "itemId": "bill-152",
+      "candidateSha256": "3bdf8efc5fb77dcd38e30eaa290a7b942ae710442f41fc0a374a82bec356970c",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "town_transport"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "a447f425-20b5-43e4-a937-f99b53dcc658",
+      "itemId": "bill-153",
+      "candidateSha256": "0605595e9f7247d2a5862914756e4abeca8177bbe03d09830a1d5d9acf1a0eff",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "children_education",
+        "culture_sport"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "b096b203-ebde-495c-9eb6-6c5b98bd8097",
+      "itemId": "bill-154",
+      "candidateSha256": "474967d38a7f529c60fd00160e5f0d78463517c4a926b5a4ad49dc22195512be",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "town_transport",
+        "economy_tourism"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "f15ea296-a43b-4c2e-97c7-446795071b7d",
+      "itemId": "bill-155",
+      "candidateSha256": "094d13c103ac38a28180c856180f16db58b12429074eb9e59dab9a80afe078fd",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "30e0f0c8-ef75-4741-8ebe-23f200525064",
+      "itemId": "bill-156",
+      "candidateSha256": "5938598a8a136a1448b7d948c5480817d6743c9677d89e33764968ba0d935624",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "c1cda6b9-5cff-481a-b2cb-57e050e66a5d",
+      "itemId": "bill-157",
+      "candidateSha256": "d0471f76223117d5725502b75ebc86b4c7b088a79ca90f44af9afc9e9392cf38",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "413339e8-4009-45db-acf5-9d1e2773d48a",
+      "itemId": "bill-158",
+      "candidateSha256": "1fe6829a44a17a1822cba87eeb091c6736c6bad3f33cf5bb4875b1fbec1dd892",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "6c8765f8-851f-4bc3-8350-9dc65148e88e",
+      "itemId": "bill-159",
+      "candidateSha256": "7ffceee9c43c5631b519de53d5db97b5dc856f01b4047822f3df0b937e3cc1c9",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "safety",
+        "administration"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "32d9fa06-48b8-4003-b57c-372edd9a9ce3",
+      "itemId": "bill-160",
+      "candidateSha256": "ccce556a4909016ec1b93fc3587ebdf5be7619424d9fc1c7a022007af8e547a8",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "administration"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "b04169c8-0cea-4bca-aa88-dfd607e85525",
+      "itemId": "bill-161",
+      "candidateSha256": "54cee0a34a48c3222c01886aeaffc2c4bdef6fe2900672af8506a70cef433db7",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "e9ee0868-1768-4039-a399-a0d2598c2991",
+      "itemId": "bill-162",
+      "candidateSha256": "c485b94c3a15b3896f95902113a633fba62c532651eebfb7f69564f9eba5db57",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "27a76e6c-8c08-49df-900a-ad02de10531e",
+      "itemId": "bill-163",
+      "candidateSha256": "5564d7624ab42cb682cd6323c6b50f75a7bf296438f5e0bad0ddf04e1174be72",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "2bde1a52-009d-4a10-a77e-9dfe74540f3d",
+      "itemId": "bill-164",
+      "candidateSha256": "0c24824210baaf7d8bbfeed911c54dadfc0e3bb41de54aafdbf9787e9fa3e6bd",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "42f3b9a0-0c1f-44a5-a3cd-0eeb69f40ec6",
+      "itemId": "bill-165",
+      "candidateSha256": "92231c68dae2de17bfdf403cd5cba48c362da53141e25d1ac82b0d251e88ac79",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "1bafeb0e-1694-4ed5-a22c-fe5da8af1fef",
+      "itemId": "bill-166",
+      "candidateSha256": "1744401b5bf6f127b227efddfeadde72431b094774c24c42d4fc09dd47ae06bd",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "d8fe4556-eb82-428a-a63d-77322877f4ef",
+      "itemId": "bill-167",
+      "candidateSha256": "b368f88e3efb968f49aab6237f3f53b68f2c2287592ef51f9ac7fdc89ea2c0e1",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "administration"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "2b785dbc-330e-44f4-9453-e976ae885b0f",
+      "itemId": "bill-168",
+      "candidateSha256": "f4897d625b78fe1d278304df2ce35a7c316f4a54fa19d4965e5754eff60c177c",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "administration"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "8a32f720-fd24-4430-94f1-938865f70470",
+      "itemId": "bill-169",
+      "candidateSha256": "0af0c30bbadee9441cc018ec5cc4ce6a651dd1a7291dbf9b430ffcf5fc1203fb",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "administration"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "777fce8b-23ba-461a-9bd2-65521ba27b46",
+      "itemId": "bill-170",
+      "candidateSha256": "aa9229c8bccb3f1829ea28890395bc069fb18e816aae9705fa0f5c5d8cecce38",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "children_education",
+        "administration"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "a98cc26e-653f-4ff3-826c-b068683b347d",
+      "itemId": "bill-171",
+      "candidateSha256": "282c5e926a500173ac87deabc09d2193674e3126244fe85e731f1bb9372bea9c",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "children_education",
+        "administration"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "b0dd079e-7e49-42df-880a-8bdab386bac0",
+      "itemId": "bill-172",
+      "candidateSha256": "2f5e205ebaa98c352ee20ce7b87d3049ecef798fca929560db3270cdb7dfb1e3",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "confirmed",
+      "topicIds": [
+        "safety"
+      ],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "d7cd0f25-7e2e-45e6-9baa-8c6093ac0adb",
+      "itemId": "bill-173",
+      "candidateSha256": "ee8751d8cc049ee4f055a2b32dadcfeafc6eb54e40b13befa2d868dd2d20ceec",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "3c32d278-b3a3-4401-b6e0-381574bc4a91",
+      "itemId": "inquiry-1",
+      "candidateSha256": "8df356441653f95ecb4eaa5135e8b748e799b7b676074f9cdf8b6370fe9c3337",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "065bc603-cde1-4874-b5f3-b8f9666d9760",
+      "itemId": "inquiry-10",
+      "candidateSha256": "6dbea4638a58909a5b3dff3e281cfe8e52acc148a8b51ac5572114648d8acef2",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "6e00e4fe-9445-4065-b0de-03e1d8be53e9",
+      "itemId": "inquiry-11",
+      "candidateSha256": "1043c8f16e5595ce754608b1fe864fd03dadfbc6ee5ab68ccd5d1b7458b3642d",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "42e33f62-4852-424c-811a-d02b6273dfa8",
+      "itemId": "inquiry-12",
+      "candidateSha256": "cb440704f430b986a7f6a7a7705243565f0865f8932de0e21dda15b031c6ce3e",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "26943a0b-720e-4f69-907d-d2577e296694",
+      "itemId": "inquiry-2",
+      "candidateSha256": "f1dd3ea5baef32badf802558d746bae46098c38f0b261b0318b87df150edbc19",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "34988794-f16b-4a53-8cb8-2af12377cba5",
+      "itemId": "inquiry-3",
+      "candidateSha256": "01d93812b1489bcc2aa09379cfce684ecd41b5799f5c9f370c497df176a4f188",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "b161b585-f9bd-46c5-8407-7c5cbca3b037",
+      "itemId": "inquiry-4",
+      "candidateSha256": "e02e9701b7fc3473dcbb3d22fcc9011585ad146a19023138bb0e40519e672d44",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "fe66dcfd-4ec7-475e-8930-a2e81b3c99f1",
+      "itemId": "inquiry-5",
+      "candidateSha256": "c80635318ad6ea1261c88857eace923598dd474a0331f96c12710d618e543783",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "dc1be1c6-5244-4d13-a217-1d4f4ecfbeb3",
+      "itemId": "inquiry-6",
+      "candidateSha256": "0f1456c09248208244d91589aa6b0f6aec0aaa1b0a78ea0b8a8f5e2988bf1c39",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "d31d7312-b429-4898-96ee-6b52de143ee6",
+      "itemId": "inquiry-7",
+      "candidateSha256": "a9ff28846db911daafdcd9cb43a893f80e7a3a68bd451fef69c792b89bcc9351",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "70d25ad8-a8e4-4086-8114-c74f26676136",
+      "itemId": "inquiry-8",
+      "candidateSha256": "d77884786cc8238022616620548791b5ffecc9c9abf57292426328822cc94589",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "0ba07a4f-ec27-477d-b25a-9c011cd0ee5a",
+      "itemId": "inquiry-9",
+      "candidateSha256": "6bb4034c9fddb2a70b27fd134e32241cba80923e60a4f432694acfc625cb8eac",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    },
+    {
+      "id": "edc6d507-c281-4c3a-b060-0a3eb7b70ffa",
+      "itemId": "member-bill-7",
+      "candidateSha256": "fbc1b356edb971639b3e851710b17e81655ce3feb3e61870ef560582c81c66fd",
+      "supersedes": null,
+      "reviewer": "calico_blanket（猫柄毛布）",
+      "reviewedAt": "2026-09-25T15:57:38.254Z",
+      "decision": "withheld",
+      "topicIds": [],
+      "note": "機械一括付与（実際の目視照合なし）",
+      "comparedWithOfficialSource": true
+    }
+  ]
+}

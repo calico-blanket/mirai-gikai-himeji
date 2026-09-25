@@ -1,0 +1,2767 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "himeji-2025-4",
+  "records": [
+    {
+      "itemId": "bill-135",
+      "statements": [
+        {
+          "text": "令和7年度に市が使うお金の計画に、1億4,280万円を足す案です。",
+          "evidenceIds": [
+            "proposal"
+          ]
+        },
+        {
+          "text": "税金や介護保険のコンピューターの仕組みを直すこと、文化のためのお金を積み立てること、口の健康に関わる施設の設備を新しくする支援、グランドピアノを買うことなどが入っています。",
+          "evidenceIds": [
+            "proposal"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "複数の事業を短くまとめた説明です。予算全体を網羅する説明ではありません。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-135",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第135号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "令和7年度姫路市一般会計補正予算（第4回）",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "not_in_official_source",
+            "raw": null,
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第135号、令和７年度姫路市一般会計補正予算（第４回）につきましては、歳入歳出予算の補正は１億4,280万円の増額でございまして、補正後の予算規模は2,589億505万3,000円となっております。\n　それでは、歳出からご説明申し上げます。\n　総務費につきましては、税制改正に伴う税総合システムの改修費用として賦課徴収事務費に2,200万円を、寄附金の受入れに伴う基金への積立金として文化振興基金積立金に5,000万円をそれぞれ計上いたしております。\n　民生費につきましては、介護保険システムの改修費用に係る繰出金として介護保険事業特別会計繰出金に1,000万円を計上いたしております。\n　衛生費につきましては、姫路市歯科医師会口腔保健センターの設備更新を支援するため、休日歯科診療助成事業費に1,080万円を計上しております。\n　商工費につきましては、大阪・関西万博のオーストリアパビリオンに展示されたグランドピアノを購入するため、文化コンベンションセンター費の設備充実費に5,000万円を計上いたしております。\n　次に、歳入についてご説明申し上げます。\n　寄附金につきましては、文化振興基金積立金の財源として計上するとともに、繰入金につきましては、グランドピアノ購入に係る財源として、文化振興基金繰入金を計上いたしております。\n　繰越金につきましては、今回の補正に係る所要一般財源として補正しております。\n　次に、繰越明許費の補正につきましては、中小企業活力創造事業費において、本年度内に事業の完了見通しが得られないため、繰越の予算措置をお願いするものでございます。\n　また、債務負担行為の補正につきましては、観光交流施設管理運営費において、債務負担行為の設定をお願いするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-135",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "5af868130510ca536640fcbbe4a848df35d4be9d21d6a8321fb985c9b2bc5ace",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-136",
+      "statements": [
+        {
+          "text": "税金の決まりが変わるので、介護保険のコンピューターの仕組みを直す案です。そのため、介護保険用のお金の計画に2,000万円を足します。",
+          "evidenceIds": [
+            "proposal"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-136",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第136号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "令和7年度姫路市介護保険事業特別会計補正予算（第1回）",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "not_in_official_source",
+            "raw": null,
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第136号、令和７年度姫路市介護保険事業特別会計補正予算（第１回）につきましては、歳入歳出予算の補正は2,000万円の増額でございまして、補正後の予算規模は494億285万7,000円となっております。\n　歳出からご説明申し上げますと、税制改正に伴う介護保険システムの改修費用として管理事務費に2,000万円を計上いたしております。\n　歳入につきましては、歳出でご説明申し上げました事業に係る財源として、国庫支出金及び繰入金を制度に基づき計上いたしております。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-136",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "962120dcb808d59810160cf0cd57d73796d5f06fe226267b0f10f4635bec4c79",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-137",
+      "statements": [
+        {
+          "text": "国の決まりが変わるので、市長などが損害を弁償する責任の一部を免除する市の決まりも整える案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-137",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第137号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市長等の損害賠償責任の一部免責に関する条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[地方自治法施行令の改正に伴い、必要な規定整理をしようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第137号、姫路市長等の損害賠償責任の一部免責に関する条例の一部を改正する条例につきましては、地方自治法施行令が改正され、引用条項にずれが生じたことに伴う規定整理をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-137",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "c734d34e2d2d9f792952f020b4dc5c1974f448df10a282ecbe571547403af563",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-138",
+      "statements": [
+        {
+          "text": "児童発達支援の施設で、幼い子どもの健康診断について決まりを変える案です。すでに受けた乳幼児健診に同じ内容があり、施設がその結果を分かっている場合は、その同じ内容の検査を省けるようにします。全部の健康診断をなくす案ではありません。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "健康診断を一律に省略する案ではありません。省略できる条件と範囲を原文で確認してください。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-138",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第138号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市指定障害児通所支援の事業等の人員、設備及び運営に関する基準を定める条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[児童福祉法に基づく指定通所支援の事業等の人員、設備及び運営に関する基準を定める厚生労働省令が改正され、指定児童発達支援事業所を利用する障害児に対する健康診断の全部又は一部を行わないことができる場合として、母子保健法の規定による乳幼児に対する健康診査の内容が当該健康診断の全部又は一部に相当すると認められ、かつ、当該指定児童発達支援事業所が当該健康診査の結果を把握する場合が加えられたため、省令と同様の改正をしようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第138号、姫路市指定障害児通所支援の事業等の人員、設備及び運営に関する基準を定める条例の一部を改正する条例につきましては、児童福祉法に基づく指定通所支援事業等に関する基準省令が改正され、指定児童発達支援事業所を利用する障害児に対する健康診断の全部または一部を行わないことができる場合として、母子保健法の規定による乳幼児に対する健康診査の内容が当該健康診断の全部または一部に相当すると認められ、かつ、当該指定児童発達支援事業所が当該健康診査の結果を把握する場合が加えられたため、省令と同様の改正をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-138",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "14e7e1b8021c5685c1f611aab3301ea552017a7b0f205df1e7a03978b88dca1d",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-139",
+      "statements": [
+        {
+          "text": "子どもの暮らしを支えること、学校の教育、小学校に入る前の教育や保育について、国の法律が変わりました。それに合わせ、放課後の子どもの事業などに関係する市の決まりを整える案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-139",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第139号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市放課後児童健全育成事業の設備及び運営に関する基準を定める条例等の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[児童福祉法、学校教育法及び就学前の子どもに関する教育、保育等の総合的な提供の推進に関する法律の改正に伴い、必要な規定整理をしようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第139号、姫路市放課後児童健全育成事業の設備及び運営に関する基準を定める条例等の一部を改正する条例につきましては、児童福祉法が改正され引用条項にずれが生じたこと、及び学校教育法及び就学前の子どもに関する教育、保育等の総合的な提供の推進に関する法律が改正され、これまで児童福祉法を引用していた園児に対する虐待に関する規定が新たに設けられたことに伴い、関係条例について必要な規定整理をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-139",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "28614b41a9bdc149cd51477ff00fa9b0c7a319287b8502560af6c4f550b450a1",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-140",
+      "statements": [
+        {
+          "text": "放課後児童クラブを運営するお金が増えているため、利用する人が払うお金を上げる案です。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        },
+        {
+          "text": "峰相放課後児童クラブを峰相小学校の中へ移すので、市の決まりに書かれた住所も変えます。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "値上げ額や適用時期は、この短い説明には含めていません。議案本文で確認してください。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-140",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第140号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市放課後児童クラブ条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[人件費及び物件費の高騰に伴う放課後児童クラブの運営経費の増加を踏まえ、放課後児童支援員等の確保、備品の充実及び利用者負担の適正化を図るため、利用者負担金の額を引き上げるとともに、峰相小学校の整備に伴う峰相放課後児童クラブの同小学校内への移転に伴い、同クラブの位置を変更しようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第140号、姫路市放課後児童クラブ条例の一部を改正する条例につきましては、人件費及び物件費の高騰に伴う放課後児童クラブの運営経費の増加を踏まえ、放課後児童支援員等の確保、備品の充実及び利用者負担の適正化を図るため、利用者負担金の額を引き上げるとともに、峰相小学校の整備に伴う峰相放課後児童クラブの同小学校内への移転に伴い、同クラブの位置を変更しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-140",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "cd33ffe1003cf6f6981c3c506104f0e665b145909aac439aec45570b57d216f9",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-141",
+      "statements": [
+        {
+          "text": "児童福祉施設で、幼い子どもの健康診断について決まりを変える案です。すでに受けた乳幼児健診に同じ内容があり、施設がその結果を分かっている場合は、その同じ内容の検査を省けるようにします。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        },
+        {
+          "text": "母子生活支援施設の長と母子支援員になれる人に、「こども家庭ソーシャルワーカー」という資格を持つ人を加えます。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "健康診断の省略条件と職員の資格要件は別の変更です。両方を確認してください。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-141",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第141号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市児童福祉施設の設備及び運営に関する基準を定める条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[児童福祉施設の設備及び運営に関する基準を定める厚生省令が改正され、児童福祉施設に入所する乳幼児に対する健康診断の全部又は一部を行わないことができる場合として、母子保健法の規定による乳幼児に対する健康診査の内容が当該健康診断の全部又は一部に相当すると認められ、かつ、当該児童福祉施設が当該健康診査の結果を把握する場合が加えられるとともに、母子生活支援施設の長及び母子支援員の任用要件に「こども家庭ソーシャルワーカー」の資格を有する者が追加されたため、省令と同様の改正をするほか、必要な規定整理をしようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第141号、姫路市児童福祉施設の設備及び運営に関する基準を定める条例の一部を改正する条例につきましては、児童福祉施設に関する基準省令が改正され、議案第138号と同様に、児童福祉施設に入所する乳幼児に対する健康診断を行わないことができる場合が追加されるとともに、母子生活支援施設の長及び母子支援員の任用要件として、こども家庭ソーシャルワーカーの資格を有する者が追加されたため、省令と同様の改正をするほか必要な規定整理をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-141",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "f5ead092dfdb2919bf3ab2035540ac55bbabf3263949c1c7beefc5731e663c00",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-142",
+      "statements": [
+        {
+          "text": "家庭的保育で、幼い子どもの健康診断について決まりを変える案です。すでに受けた乳幼児健診に同じ内容があり、保育を行う人がその結果を分かっている場合は、その同じ内容の検査を省けるようにします。全部の健康診断をなくす案ではありません。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "健康診断を一律に省略する案ではありません。省略できる条件と範囲を原文で確認してください。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-142",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第142号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市家庭的保育事業等の設備及び運営に関する基準を定める条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[家庭的保育事業等の設備及び運営に関する基準を定める厚生労働省令が改正され、家庭的保育事業を利用する乳幼児に対する健康診断の全部又は一部を行わないことができる場合として、母子保健法の規定による乳幼児に対する健康診査の内容が当該健康診断の全部又は一部に相当すると認められ、かつ、当該家庭的保育事業者が当該健康診査の結果を把握する場合が加えられたため、省令と同様の改正をするほか、必要な規定整理をしようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第142号、姫路市家庭的保育事業等の設備及び運営に関する基準を定める条例の一部を改正する条例につきましては、家庭的保育事業に関する基準省令が改正され、議案第138号及び議案第141号と同様に、家庭的保育事業を利用する乳幼児に対する健康診断を行わないことができる場合が追加されたため、省令と同様の改正をするほか、必要な規定整理をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-142",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "7699efa03b42b804696a38a2f5102e8e859cabd1b7d13c0b402555eb74a4bfcd",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-143",
+      "statements": [
+        {
+          "text": "姫路市立美術館を見るためのお金を、18歳になった日から最初の3月31日まで無料にする案です。18歳になる前の子どもも対象です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        },
+        {
+          "text": "団体料金を使えるグループの人数を、20人以上から30人以上に変えます。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "無料の対象を単に「18歳以下」と読み替えず、年度の区切りまで確認してください。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-143",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第143号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市立美術館条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[将来を担う子どもたちの観覧を促進するため、18歳に達する日以後の最初の3月31日までの間にある者の観覧料を無料とするほか、団体料金が適用される団体の人数を20人以上から30人以上に変更する等の必要な規定整備をしようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第143号、姫路市立美術館条例の一部を改正する条例につきましては、将来を担う子どもたちの観覧を促進するため、美術館において、18歳に達する日以後の最初の３月31日までの間にある者の観覧料を無料とするほか、団体料金が適用される団体の人数を20人以上から30人以上に変更する等の必要な規定整備をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-143",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "3d192d6445ea26a62028977b083f410ca270ef17244e0aa4292a162806cb93aa",
+      "createdAt": "2026-09-23T15:35:52.816Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-144",
+      "statements": [
+        {
+          "text": "姫路文学館を見るためのお金を、18歳になった日から最初の3月31日まで無料にする案です。18歳になる前の子どもも対象です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        },
+        {
+          "text": "団体料金を使えるグループの人数を、20人以上から30人以上に変えます。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "無料の対象を単に「18歳以下」と読み替えず、年度の区切りまで確認してください。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-144",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第144号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路文学館条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[将来を担う子どもたちの観覧を促進するため、18歳に達する日以後の最初の3月31日までの間にある者の観覧料を無料とするほか、団体料金が適用される団体の人数を20人以上から30人以上に変更する等の必要な規定整備をしようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第144号、姫路文学館条例の一部を改正する条例につきましては、将来を担う子どもたちの観覧を促進するため、文学館において、18歳に達する日以後の最初の３月31日までの間にある者の観覧料を無料とするほか、団体料金が適用される団体の人数を20人以上から30人以上に変更する等の必要な規定整備をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-144",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "025d31555bd00159357c2aac2931e96a5f616467fa8701a43fdf1d6ab268de3f",
+      "createdAt": "2026-09-23T15:35:52.816Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-145",
+      "statements": [
+        {
+          "text": "好古園に入る料金について、前に議会で決めた変更をさらに変える案です。無料の対象を、18歳になる前の子どもと、18歳になった日から最初の3月31日までの人にします。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "過去の改正条例をさらに変更する案です。無料対象の区切りと適用時期を本文で確認してください。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-145",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案145号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路城西御屋敷跡庭園好古園条例の一部を改正する条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[令和7年3月26日に議決を得た議案第42号姫路城西御屋敷跡庭園好古園条例の一部を改正する条例において、入園料を無料とする者を高等学校等に在学する18歳の者を含む18歳未満の者としたことについて、対象を18歳に達する日以後の最初の3月31日までの間にある者に変更しようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第145号、姫路城西御屋敷跡庭園好古園条例の一部を改正する条例の一部を改正する条例につきましては、令和７年３月26日に議決をいただきました議案第42号、姫路城西御屋敷跡庭園好古園条例の一部を改正する条例におきまして、入園料を無料とする者を高等学校等に在学する18歳の者を含む18歳未満の者としたことについて、対象を18歳に達する日以後の最初の３月31日までの間にある者に変更しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-145",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "5349c3991d3bb69dd2b1c602ce76db050a1be3500013f65903d7fcfde07c8e35",
+      "createdAt": "2026-09-23T15:35:52.816Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-146",
+      "statements": [
+        {
+          "text": "姫路城を見る料金について、前に議会で決めた変更をさらに変える案です。無料の対象を、18歳になる前の子どもと、18歳になった日から最初の3月31日までの人にします。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "過去の改正条例をさらに変更する案です。無料対象の区切りと適用時期を本文で確認してください。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-146",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第146号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路城縦覧料等徴収条例の一部を改正する条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[令和7年3月26日に議決を得た議案第43号姫路城縦覧料等徴収条例の一部を改正する条例において、縦覧料を無料とする者を高等学校等に在学する18歳の者を含む18歳未満の者としたことについて、対象を18歳に達する日以後の最初の3月31日までの間にある者に変更しようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第146号、姫路城縦覧料等徴収条例の一部を改正する条例の一部を改正する条例につきましては、令和７年３月26日に議決をいただきました議案第43号、姫路城縦覧料等徴収条例の一部を改正する条例におきまして、縦覧料を無料とする者を高等学校等に在学する18歳の者を含む18歳未満の者としたことについて、対象を18歳に達する日以後の最初の３月31日までの間にある者に変更しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-146",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "1baf35227d90efeb3f89e2881690bb54c2f2aee67da5f0958be8bf26c7628c3b",
+      "createdAt": "2026-09-23T15:35:52.816Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-147",
+      "statements": [
+        {
+          "text": "子育て中の家族や若い夫婦が市営住宅に住むときの、収入についての決まりを変える案です。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        },
+        {
+          "text": "この決まりでいう子育て中の家族の範囲を広げます。一緒に住む子どもが小学校に入る前の家族だけでなく、18歳未満の子どもがいる家族も含めます。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "公式概要は収入基準を「引き下げる」と記しています。基準額や意味を本文で確認するまで、収入上限の引上げ・引下げとは言い換えていません。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-147",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第147号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市営住宅管理条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[子育て世帯及び若年夫婦世帯の市営住宅への入居を促進するため、これらの世帯の入居収入基準を引き下げるとともに、子育て世帯の対象を同居者に小学校就学の始期に達するまでの者がある場合から同居者に18歳未満の子がある場合に拡大するほか、必要な規定整理をしようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第147号、姫路市営住宅管理条例の一部を改正する条例につきましては、子育て世帯及び若年夫婦世帯の市営住宅への入居を促進するため、これらの世帯の入居収入基準を引き下げるとともに、子育て世帯の対象を同居者に小学校就学の始期に達するまでの者がある場合から同居者に18歳未満の子がある場合に拡大するほか、必要な規定整理をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-147",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "4cd4c207e9e9a06726e2b05444062be741a0cafa111a58e30627c1f5d4228d98",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-148",
+      "statements": [
+        {
+          "text": "自転車の車輪に一台ずつかぎをかける装置を入れるので、駐輪場を使うときの決まりを整える案です。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        },
+        {
+          "text": "手柄山駐輪場を定期的に使うことを示すシールに合わせ、料金を集める時期の決まりも整えます。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-148",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第148号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市道路附属物自転車等駐車場条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[電磁ロック等により車輪を施錠して管理する個別施錠装置を導入することに伴い、当該装置を使用する場合における自転車等駐車場の使用許可に関する規定を定めるとともに、手柄山駐輪場を定期利用する者に対して定期利用を証する自転車等に貼付するシール形式のものを発行することに伴い、定期利用券に関する規定を定期利用券と当該シール形式のものを包括する定期利用証に関する規定に改めるほか、駐車料金の徴収時期について必要な規定整備をしようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第148号、姫路市道路附属物自転車等駐車場条例の一部を改正する条例につきましては、電磁ロック等により車輪を施錠して管理する個別施錠装置を導入することに伴い、当該装置を使用する場合における自転車等駐車場の使用許可に関する規定を定めるとともに、手柄山駐輪場を定期利用する者に対して定期利用を証する自転車等に貼付するシール形式のものを発行することに伴い、定期利用券に関する規定を定期利用券と当該シール形式のものを包括する定期利用証に関する規定に改めるほか、駐車料金の徴収時期について必要な規定整備をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-148",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "ff3bb25ddbd2d2ffa608d50b08d805f6c2b76f37f6a0b5da796cbc6dfda16671",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-149",
+      "statements": [
+        {
+          "text": "令和8年度の終わりで姫路市市民会館をなくすため、市民会館についての市の決まりをなくす案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-149",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第149号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市市民会館条例を廃止する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[令和8年度末をもって、姫路市市民会館を廃止しようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第149号、姫路市市民会館条例を廃止する条例につきましては、姫路市市民会館の施設の老朽化が進み、利用者が安心して利用することができなくなるおそれがあることから、令和８年度末をもって姫路市市民会館を廃止しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-149",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "27299a66e84436c65d9d2fc13a37b15c2807216f0b38549236d576832740a6bb",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-150",
+      "statements": [
+        {
+          "text": "令和8年度の終わりで姫路市青少年センターをなくすため、この施設についての市の決まりをなくす案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-150",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第150号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市青少年センター条例を廃止する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[令和8年度末をもって、姫路市青少年センターを廃止しようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第150号、姫路市青少年センター条例を廃止する条例につきましては、姫路市青少年センターが設置されている姫路市市民会館の施設の老朽化が進み、有料施設の利用も低下していることから、令和８年度末をもって姫路市青少年センターを廃止しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-150",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "eb08e2d531dfa29896ba4eab525397225c749b6bd9d73e336a37a12723f15ce8",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-151",
+      "statements": [
+        {
+          "text": "坊勢漁港の亀岩地区で、荷物を船からおろす場所などの地面を改良する工事の約束を結ぶ案です。工事の契約金額は250,547,000円です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-151",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第151号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "契約の締結について(坊勢漁港(亀岩地区)亀岩-2.0m物揚場D外地盤改良工事請負契約の締結)",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[契約金額 250,547,000円]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第151号から議案第153号までは、いずれも契約の締結についてでございます。\n　議案第151号は、坊勢漁港（亀岩地区）亀岩－2.0ｍ物揚場Ｄ外地盤改良工事について、契約金額２億5,054万7,000円をもって株式会社平野組と、議案第152号は、大手前公園地下駐車場改修工事について、契約金額７億9,090万円をもって坂上建設株式会社と、議案第153号は、姫路市立大津茂小学校屋内運動場長寿命化改修等（建築）工事について、契約金額２億8,050万円をもって株式会社正光と、それぞれ請負契約を締結しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-151",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "590e194f36d5de8e31134d16ec491e81a16d203cc447432fc05337eb09fcd960",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-152",
+      "statements": [
+        {
+          "text": "大手前公園の地下駐車場を直す工事の約束を結ぶ案です。工事の契約金額は790,900,000円です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-152",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第152号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "契約の締結について(大手前公園地下駐車場改修工事請負契約の締結)",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[契約金額 790,900,000円]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第151号から議案第153号までは、いずれも契約の締結についてでございます。\n　議案第151号は、坊勢漁港（亀岩地区）亀岩－2.0ｍ物揚場Ｄ外地盤改良工事について、契約金額２億5,054万7,000円をもって株式会社平野組と、議案第152号は、大手前公園地下駐車場改修工事について、契約金額７億9,090万円をもって坂上建設株式会社と、議案第153号は、姫路市立大津茂小学校屋内運動場長寿命化改修等（建築）工事について、契約金額２億8,050万円をもって株式会社正光と、それぞれ請負契約を締結しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-152",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "72e33ab414b46b1252fb1583db6afb5ac0e5efaa37101c7c2ee0e2b43ea320db",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-153",
+      "statements": [
+        {
+          "text": "大津茂小学校の屋内運動場を長く使えるように直す工事などの約束を結ぶ案です。工事の契約金額は280,500,000円です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-153",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第153号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "契約の締結について(姫路市立大津茂小学校屋内運動場長寿命化改修等(建築)工事請負契約の締結)",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[契約金額 280,500,000円]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第151号から議案第153号までは、いずれも契約の締結についてでございます。\n　議案第151号は、坊勢漁港（亀岩地区）亀岩－2.0ｍ物揚場Ｄ外地盤改良工事について、契約金額２億5,054万7,000円をもって株式会社平野組と、議案第152号は、大手前公園地下駐車場改修工事について、契約金額７億9,090万円をもって坂上建設株式会社と、議案第153号は、姫路市立大津茂小学校屋内運動場長寿命化改修等（建築）工事について、契約金額２億8,050万円をもって株式会社正光と、それぞれ請負契約を締結しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-153",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "781871da5c1e9f5999fcce4db29b1f964e81b78a1ff580f23c06da5859b49a7e",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-154",
+      "statements": [
+        {
+          "text": "「道の駅姫路」（仮の名前）を整え、その工事に合わせて川の場所を変えるため、土地を手に入れる案です。土地の広さは5,125.22平方メートルです。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-154",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第154号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "土地の取得について((仮称)道の駅姫路整備事業及びこれに伴う普通河川付替工事のための用地の取得)",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[取得地積 5,125.22平方メートル]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第154号、土地の取得につきましては、（仮称）道の駅姫路整備事業及びこれに伴う普通河川付替工事のための用地として、本市飾東町豊国字八反田233番ほか３筆、合計5,125.22平方メートルの土地を取得しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-154",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "4b6f64264f176a7c7d96a8d4457ec0440e6dd582fde2dd9227b9c24185d7a4ff",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-155",
+      "statements": [
+        {
+          "text": "夢前福祉センターの管理を任せる指定管理者に、株式会社エヌ・エス・アイを選ぶ案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-155",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第155号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市立夢前福祉センターに係る指定管理者の指定について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[指定管理者となる団体 株式会社エヌ・エス・アイ]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第155号から議案第158号までは、いずれも本市の公の施設に係る指定管理者の指定についてでございます。\n　議案第155号は、姫路市立夢前福祉センターの指定管理者として株式会社エヌ・エス・アイを、議案第156号は、姫路市文化コンベンションセンター及びキャスティ21公園の指定管理者として姫路市文化コンベンションセンター運営共同事業体を、議案第157号は、姫路市家島Ｂ＆Ｇ海洋センター等の指定管理者として有限会社アクアプランニングを、議案第158号は、姫路市立図書館飾磨分館等の指定管理者として光栄産業株式会社を、それぞれ指定しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-155",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "ed6c51894402a0fb209168d875eb16252c26f06a62afc309f9b1ba2bd8d405a6",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-156",
+      "statements": [
+        {
+          "text": "文化コンベンションセンターとキャスティ21公園の管理を任せる指定管理者に、姫路市文化コンベンションセンター運営共同事業体を選ぶ案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-156",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第156号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市文化コンベンションセンター及びキャスティ21公園に係る指定管理者の指定について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[指定管理者となる団体 姫路市文化コンベンションセンター運営共同事業体]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第155号から議案第158号までは、いずれも本市の公の施設に係る指定管理者の指定についてでございます。\n　議案第155号は、姫路市立夢前福祉センターの指定管理者として株式会社エヌ・エス・アイを、議案第156号は、姫路市文化コンベンションセンター及びキャスティ21公園の指定管理者として姫路市文化コンベンションセンター運営共同事業体を、議案第157号は、姫路市家島Ｂ＆Ｇ海洋センター等の指定管理者として有限会社アクアプランニングを、議案第158号は、姫路市立図書館飾磨分館等の指定管理者として光栄産業株式会社を、それぞれ指定しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-156",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "6769b2cf65a3e2ea2d6a9440c8f2780cbcda893599e1a24f5fcbb6a8a0ac26c9",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-157",
+      "statements": [
+        {
+          "text": "家島B&G海洋センターなどの管理を任せる指定管理者に、有限会社アクアプランニングを選ぶ案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-157",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第157号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市家島B&G海洋センター等に係る指定管理者の指定について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[指定管理者となる団体 有限会社アクアプランニング]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第155号から議案第158号までは、いずれも本市の公の施設に係る指定管理者の指定についてでございます。\n　議案第155号は、姫路市立夢前福祉センターの指定管理者として株式会社エヌ・エス・アイを、議案第156号は、姫路市文化コンベンションセンター及びキャスティ21公園の指定管理者として姫路市文化コンベンションセンター運営共同事業体を、議案第157号は、姫路市家島Ｂ＆Ｇ海洋センター等の指定管理者として有限会社アクアプランニングを、議案第158号は、姫路市立図書館飾磨分館等の指定管理者として光栄産業株式会社を、それぞれ指定しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-157",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "d7f579441e74143a328620b1cafd728a31dee6bbb775b545238fb2df4febdc3d",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-158",
+      "statements": [
+        {
+          "text": "市立図書館飾磨分館などの管理を任せる指定管理者に、光栄産業株式会社を選ぶ案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-158",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第158号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市立図書館飾磨分館等に係る指定管理者の指定について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[指定管理者となる団体 光栄産業株式会社]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第155号から議案第158号までは、いずれも本市の公の施設に係る指定管理者の指定についてでございます。\n　議案第155号は、姫路市立夢前福祉センターの指定管理者として株式会社エヌ・エス・アイを、議案第156号は、姫路市文化コンベンションセンター及びキャスティ21公園の指定管理者として姫路市文化コンベンションセンター運営共同事業体を、議案第157号は、姫路市家島Ｂ＆Ｇ海洋センター等の指定管理者として有限会社アクアプランニングを、議案第158号は、姫路市立図書館飾磨分館等の指定管理者として光栄産業株式会社を、それぞれ指定しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-158",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "8f9452267482e4f6d50f94bfc76043773e6f248ea609c814a7d4b21d1fb2e737",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-159",
+      "statements": [
+        {
+          "text": "中播消防署北部出張所を市川町から神河町へ移して整えます。その土地と建物を姫路市が無料で借りられるよう、神河町との決まりを変える話し合いをする案です。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-159",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第159号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "神河町と姫路市との消防に関する事務の委託に関する規約の一部変更について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[福崎町、市川町及び神河町から本市に委託されている消防に関する事務について、市川町に設置している中播消防署北部出張所を神河町に移転し、再整備することに伴い、当該出張所に係る土地及び建物について本市が無償貸与を受けるための規約の変更について同町と協議しようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第159号、神河町と姫路市との消防に関する事務の委託に関する規約の一部変更につきましては、福崎町、市川町及び神河町から本市に委託されている消防に関する事務について、市川町に設置している中播消防署北部出張所を神河町に移転し、再整備することに伴い、当該出張所に係る土地及び建物について本市が無償貸与を受けるための規約の変更について同町と協議しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-159",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "433094454865973bd3330706b93d1d7c7e24e9964285f90a0f26925489632eed",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-160",
+      "statements": [
+        {
+          "text": "いくつかの市で公会堂の仕事を行う組合を解散する準備の案です。加古川市が仕事を引きつぐことと、残った財産の分け方について、関係する市で決まりを変える話し合いをします。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-160",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第160号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "加古川市外2市共有公会堂事務組合規約の一部変更について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[加古川市外2市共有公会堂事務組合の解散に伴う事務を加古川市が承継すること及び残余財産の分配に関する規約の変更について関係市で協議しようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案160号、加古川市外２市共有公会堂事務組合規約の一部変更につきましては、次にご説明いたします、加古川市外２市共有公会堂事務組合の解散に伴う事務を加古川市が承継すること及び残余財産の分配に関する規約の変更について関係市で協議しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-160",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "d9bd9dedf0e4bd8ed3990c341cc5d53025eaf818c67f9e41094a816f15db7d9b",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-161",
+      "statements": [
+        {
+          "text": "いくつかの市で公会堂の仕事を行う「加古川市外2市共有公会堂事務組合」を、令和7年度の終わりで解散するため、関係する市で話し合う案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-161",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第161号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "加古川市外2市共有公会堂事務組合の解散について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[本年度末をもって、加古川市外2市共有公会堂事務組合を解散することについて関係市で協議しようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第161号、加古川市外２市共有公会堂事務組合の解散につきましては、本年度末をもって同組合を解散することについて、議案第162号、加古川市外２市共有公会堂事務組合の解散に伴う財産処分につきましては、同組合の解散に際し必要となる財産処分として、同組合の残余財産を関係市に帰属させることについて、それぞれ関係市で協議しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-161",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "4c480ba737c8c6a628cfdf4b9ceb90c8b8c605b4700a4486031f7c2a2fc13521",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-162",
+      "statements": [
+        {
+          "text": "公会堂の仕事を行う組合を解散するとき、残った財産を関係する市のものにすることについて、話し合う案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-162",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第162号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "加古川市外2市共有公会堂事務組合の解散に伴う財産処分について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[加古川市外2市共有公会堂事務組合の解散に際し必要となる財産処分として、同組合の残余財産を関係市に帰属させることについて関係市で協議しようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第161号、加古川市外２市共有公会堂事務組合の解散につきましては、本年度末をもって同組合を解散することについて、議案第162号、加古川市外２市共有公会堂事務組合の解散に伴う財産処分につきましては、同組合の解散に際し必要となる財産処分として、同組合の残余財産を関係市に帰属させることについて、それぞれ関係市で協議しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-162",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "fbcb642ed83db37f2949bd71b9e53f45c4c3617f2bf06433932d5958c7786541",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-163",
+      "statements": [
+        {
+          "text": "手柄山スポーツ施設を整え、運営するための契約金額を増やす案です。そのために、前に議会で決めた内容を変えます。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-163",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第163号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "議決更正について(手柄山スポーツ施設整備運営事業契約に係る議決更正)",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "[契約金額を増額しようとするもの]",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第163号、議決更正につきましては、令和３年12月21日議案第120号にて議決をいただき、令和５年12月19日議案第207号及び令和６年12月23日議案第172号にて契約金額の変更の議決をいただきました手柄山スポーツ施設整備運営事業契約につきまして、契約金額を48億5,799万3,104円増額しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417&HUID=202071",
+          "retrievedAt": "2026-09-22T16:27:05.846225Z",
+          "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+          "associationId": "2417-202071-bill-163",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "7917fba97779f9ac86744be6c68054081a99e18e1dc1a734eee9678c4f4ddc1d",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-164",
+      "statements": [
+        {
+          "text": "令和7年度に市が使うお金の計画に、59億9,337万6,000円を足す案です。",
+          "evidenceIds": [
+            "proposal"
+          ]
+        },
+        {
+          "text": "市の職員などの給料を変えるためのお金や、物の値段が高くなったことに対応する子育て応援手当・給付の事業などが入っています。今、申しこめるお金の案内ではありません。",
+          "evidenceIds": [
+            "proposal"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "給付の対象者・申請方法・現在の受付状況を説明するものではありません。過去の予算案の説明です。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-164",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第164号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "令和7年度姫路市一般会計補正予算（第5回）",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "not_in_official_source",
+            "raw": null,
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第164号、令和７年度姫路市一般会計補正予算（第５回）についてでございますが、歳入歳出予算の補正は59億9,337万6,000円の増額でございまして、補正後の予算規模は2,648億9,842万9,000円となっております。\n　それでは、歳出からご説明いたします。\n　今回の補正予算では、本市職員等の給与改定に伴い、各款の報酬給与費に総額11億2,290万円を、総務費の会計年度任用職員給与費に２億2,060万円を、民生費の国民健康保険事業特別会計繰出金に2,100万円を、介護保険事業特別会計繰出金に2,262万6,000円をそれぞれ計上いたしております。\n　続きまして、給与改定以外の事項についてご説明申し上げます。\n　国の補正予算に伴う補助事業費の増により、民生費の物価高対応子育て応援手当給付事業費に17億3,625万円を、商工費の物価高騰対策給付事業費に28億7,000万円を、それぞれ計上いたしております。\n　次に、歳入につきましてご説明申し上げます。\n　国庫支出金につきましては、歳出でご説明いたしました国の補助事業の財源として制度に基づき計上いたしております。\n　また、繰越金につきましては、今回の補正に係る所要一般財源として計上いたしております。\n　次に、繰越明許費の補正についてご説明いたします。\n　物価高対応子育て応援手当給付事業費など２事業につきまして、本年度内の事業の完了見通しが得られないためこれを翌年度に繰り越して執行いたしたく、繰越しの予算措置をお願いするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-bill-164",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "baeff716d529bb1da6a9bf5572997badfb63af3d6c8153631d9d078c4a909e34",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-165",
+      "statements": [
+        {
+          "text": "市の職員の給料が変わるので、国民健康保険のためのお金の計画のうち、事業勘定に2,100万円を足す案です。",
+          "evidenceIds": [
+            "proposal"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-165",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第165号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "令和7年度姫路市国民健康保険事業特別会計補正予算（第1回）",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "not_in_official_source",
+            "raw": null,
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　続きまして、議案第165号、令和７年度姫路市国民健康保険事業特別会計補正予算（第１回）についてでございますが、事業勘定の歳入歳出予算の補正は2,100万円の増額でございまして、補正後の予算規模は502億764万6,000円となっております。\n　それでは、歳出についてご説明いたします。\n　今回の補正予算では、国の給与改定勧告に伴う本市職員の給与改定に伴い、報酬給与費に2,100万円を計上いたしております。\n　次に、歳入でございますが、繰入金を制度に基づき計上いたしております。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-bill-165",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "43ec474f8e80a6391b26f3cb30ab804f494629eb7e716b3b626e9c9a09253848",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-166",
+      "statements": [
+        {
+          "text": "市の職員の給料が変わるので、介護保険用のお金の計画に2,340万円を足す案です。",
+          "evidenceIds": [
+            "proposal"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-166",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第166号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "令和7年度姫路市介護保険事業特別会計補正予算（第2回）",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "not_in_official_source",
+            "raw": null,
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　続きまして、議案第166号、令和７年度姫路市介護保険事業特別会計補正予算（第２回）についてでございますが、歳入歳出予算の補正は2,340万円の増額でございまして、補正後の予算規模は494億2,625万7,000円となっております。\n　それでは、歳出についてご説明いたします。\n　今回の補正予算では、国の給与改定勧告に伴う本市職員の給与改定に伴い、一般管理費の報酬給与費に1,400万円を、認定諸費に844万2,000円を、給付費適正化事業費に95万8,000円を、それぞれ計上いたしております。\n　次に、歳入でございますが、国庫支出金及び県支出金並びに繰入金を制度に基づき計上いたしております。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-bill-166",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "28b5d78491a640d74bd0ef4246d0bbe1e8a0db7f0c5f2743dbc840971e91d522",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-167",
+      "statements": [
+        {
+          "text": "国の給料の変更をふまえて、市の一般職の職員の給料表の金額を上げる案です。「期末・勤勉手当」を1年に何か月分払うかも増やします。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        },
+        {
+          "text": "特定任期付職員の期末手当や、交通用具を使って通勤する職員への手当を増やすことなども入っています。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-167",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第167号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市職員給与条例等の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［国家公務員の給与改定を踏まえ、一般職の職員の期末手当及び勤勉手当並びに特定任期付職員の期末手当の年間支給月数を引き上げるとともに、一般職の職員の給料表の増額改定をするほか、交通用具使用者に係る通勤手当の引上げ等の必要な規定整備をしようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第167号、姫路市職員給与条例等の一部を改正する条例につきましては、国家公務員の給与改定を踏まえ、一般職の職員の期末手当及び勤勉手当の年間支給月数及び特定任期付職員の期末手当の年間支給月数をそれぞれ0.05月引き上げるとともに、一般職の職員の給料表の増額改定をするほか、交通用具使用者に係る通勤手当の額を引き上げる等の必要な規定整備をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-bill-167",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "79310c93e4685b5cf23ca3602dd93834a932858c012b98233ccaebc83d209431",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-168",
+      "statements": [
+        {
+          "text": "一般職の職員の給料が変わることをふまえて、常勤の特別職への「期末手当」を1年に何か月分払うか、増やす案です。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-168",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第168号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "特別職の職員で常勤のものの給与に関する条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［一般職の職員の給与改定を踏まえ、特別職の職員で常勤のものの期末手当の年間支給月数を引き上げようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第168号、特別職の職員で常勤のものの給与に関する条例の一部を改正する条例につきましては、前議案でご説明いたしました一般職の職員の給与改定を踏まえ、特別職の職員で常勤のものについて、期末手当の年間支給月数を0.05月引き上げようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-bill-168",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "646b8644ad92217ae3c98038424340c01a446e0f6d6e33ec48548af0ab55e993",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-169",
+      "statements": [
+        {
+          "text": "市の職員などの給料が変わることをふまえて、市議会議員への「期末手当」を1年に何か月分払うか、増やす案です。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-169",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第169号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市議会の議員の議員報酬等に関する条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［一般職の職員及び特別職の職員で常勤のものの給与改定を踏まえ、市議会議員の期末手当の年間支給月数を引き上げようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第169号、姫路市議会の議員の議員報酬等に関する条例の一部を改正する条例につきましては、市議会議員の期末手当について、前議案でご説明いたしました特別職の職員で常勤のものと同様に、期末手当の年間支給月数を0.05月引き上げようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-bill-169",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "391889584c2e3624a5d57c93b3a81beb33a6a11ff97863a9fc07e833203c1a71",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-170",
+      "statements": [
+        {
+          "text": "市立学校の職員の給料表の金額を上げる案です。県の変更に合わせて、「教職調整額」の割合や「教員特別手当」なども変えます。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-170",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第170号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市立学校職員の給与に関する条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［学校職員の給与について、一般職の職員と同様に給料表の増額改定をするとともに、県において、公立の義務教育諸学校等の教育職員の給与等に関する特別措置法の改正により教職調整額の支給率の引上げや教員特別手当の見直しが行われたことに伴い、本市の学校職員の給与についても同様の改正をするほか、必要な規定整理をしようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第170号、姫路市立学校職員の給与に関する条例の一部を改正する条例につきましては、学校職員の給与について、一般職の職員の給与に係る改正と同様の改正をするとともに、県において、公立の義務教育諸学校等の教育職員の給与等に関する特別措置法の改正により教職調整額の支給率の引上げや教員特別手当の見直しが行われたことに伴い、本市の学校職員の給与についても同様の改正をしようとするほか、必要な規定整理をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-bill-170",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "7449dc4bc32ee38affcaa8038b2e85aa63dcdf1af0e07846774f74033fe98d5d",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-171",
+      "statements": [
+        {
+          "text": "県の変更に合わせ、幼い子どもや生徒の救急対応・補導をする市立学校の職員への「教員特殊業務手当」を500円増やす案です。全員の給料を一律に500円増やす案ではありません。",
+          "evidenceIds": [
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "500円は対象業務の手当の引上げ額です。全職員の給与に一律加算する意味ではありません。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-171",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第171号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市立学校職員の特殊勤務手当に関する条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［県において、公立学校教職員の特殊業務手当のうち、幼児又は生徒の負傷、疾病等に伴う救急業務に係るもの及び幼児又は生徒に対する補導業務に係るものの額が500円引き上げられることに伴い、本市の学校職員の教員特殊業務手当についても同様の改正をしようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第171号、姫路市立学校職員の特殊勤務手当に関する条例の一部を改正する条例につきましては、兵庫県において、公立学校教職員の特殊業務手当のうち幼児または生徒の負傷、疾病等に伴う救急業務に係るもの及び幼児または生徒に対する補導業務に係るものが500円引き上げられることに伴い、本市の学校職員の教員特殊業務手当についても同様の改正をしようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-bill-171",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "03e8a4a9d2b3ef0da1ffc1d954b3aa5594d6de3f7b93ff70fb2ad0adb97b1b2b",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-172",
+      "statements": [
+        {
+          "text": "姫路東消防署を新しく建てる工事の契約金額を増やす案です。そのために、前に議会で決めた内容を変えます。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-172",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第172号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "議決更正について（姫路市姫路東消防署新築（建築）工事請負契約に係る議決更正）",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［契約金額を増額しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第172号、議決更正につきましては、本年10月３日、議案第127号にて議決をいただきました姫路市姫路東消防署新築（建築）工事につきまして、契約金額を２億2,381万7,932円増額しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-bill-172",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "086801dfeb3296d9891cb4cbacffe608ec73d58a92f508c93ce781595338a3f0",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "bill-173",
+      "statements": [
+        {
+          "text": "公平委員会の委員の仕事をする期間が終わる前川敏幸さんに、続けて委員をしてもらう案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "bill-173",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議案第173号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "公平委員会委員の選任について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［前川敏幸委員の任期満了に伴い、適任と認める同氏を再任しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　議案第173号、公平委員会委員の選任につきましては、公平委員会委員である前川敏幸氏の任期が今月25日をもって満了いたしますので、適任と認める同氏を再任しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-bill-173",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "5566bceec4bb8fa9b1441d8a2702e692f1393182a097478e1bdb92541a7a6395",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-1",
+      "statements": [
+        {
+          "text": "人権擁護委員の仕事をする期間が終わる岡本雅弘さんを、もう一度、委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-1",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第1号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［岡本雅弘委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第１号から諮問第４号までは、来年３月31日をもって任期満了となる委員を再推薦しようとするものでございまして、諮問第１号は岡本雅弘氏を、諮問第２号は加堂雅男氏を、諮問第３号は杉森惠子氏を、諮問第４号は福田隆行氏を、それぞれ適任と認め、再推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-1",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "75519bbe7e0ca307376b12fc1c9f8a409b014e6c251a4e7008df45b7a8332e71",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-2",
+      "statements": [
+        {
+          "text": "人権擁護委員の仕事をする期間が終わる加堂雅男さんを、もう一度、委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-2",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第2号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［加堂雅男委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第１号から諮問第４号までは、来年３月31日をもって任期満了となる委員を再推薦しようとするものでございまして、諮問第１号は岡本雅弘氏を、諮問第２号は加堂雅男氏を、諮問第３号は杉森惠子氏を、諮問第４号は福田隆行氏を、それぞれ適任と認め、再推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-2",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "9c967c065d038298411d4cabe000b318e79295886e23286d3f8de868c1c3974c",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-3",
+      "statements": [
+        {
+          "text": "人権擁護委員の仕事をする期間が終わる杉森惠子さんを、もう一度、委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-3",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第3号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［杉森惠子委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第１号から諮問第４号までは、来年３月31日をもって任期満了となる委員を再推薦しようとするものでございまして、諮問第１号は岡本雅弘氏を、諮問第２号は加堂雅男氏を、諮問第３号は杉森惠子氏を、諮問第４号は福田隆行氏を、それぞれ適任と認め、再推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-3",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "dd7f0529fbd98b33bd7b5007d4a6e93cfff374ebf2777cc4f503cf6534066238",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-4",
+      "statements": [
+        {
+          "text": "人権擁護委員の仕事をする期間が終わる福田隆行さんを、もう一度、委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-4",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第4号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［福田隆行委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第１号から諮問第４号までは、来年３月31日をもって任期満了となる委員を再推薦しようとするものでございまして、諮問第１号は岡本雅弘氏を、諮問第２号は加堂雅男氏を、諮問第３号は杉森惠子氏を、諮問第４号は福田隆行氏を、それぞれ適任と認め、再推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-4",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "85c174df6484161b7135b4ba3bc571d9d2bf24f3c0d34ff656dbbb0938289990",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-5",
+      "statements": [
+        {
+          "text": "東海廣子さんが人権擁護委員の仕事をする期間が終わるので、石田日出夫さんを新しい委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-5",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第5号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［東海廣子委員の任期満了に伴い、後任として適任と認める石田日出夫氏を新たに候補者として推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第５号から諮問第12号までは、来年３月31日をもって任期満了となる委員の後任の候補者を推薦しようとするものでございまして、諮問第５号は東海廣子氏の後任として石田日出夫氏を、諮問第６号は前田きみ代氏の後任として小坂雅代氏を、諮問第７号は石田和己氏の後任として仲嶋充利氏を、諮問第８号は大垣輝行氏の後任として大西正人氏を、諮問第９号は内海行之氏の後任として魚谷敏宏氏を、諮問第10号は松浦伸郎氏の後任として國部伸也氏を、諮問第11号は中尾五郎氏の後任として高馬朗氏を、諮問第12号は井上治美氏の後任として坂田基秀氏を、それぞれ適任と認め、候補者として推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-5",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "49f52c26de153ef3fe5358a1ff7baf3d884984c0a7e760b2b8e101d47137b16a",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-6",
+      "statements": [
+        {
+          "text": "前田きみ代さんが人権擁護委員の仕事をする期間が終わるので、小坂雅代さんを新しい委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-6",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第6号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［前田きみ代委員の任期満了に伴い、後任として適任と認める小坂雅代氏を新たに候補者として推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第５号から諮問第12号までは、来年３月31日をもって任期満了となる委員の後任の候補者を推薦しようとするものでございまして、諮問第５号は東海廣子氏の後任として石田日出夫氏を、諮問第６号は前田きみ代氏の後任として小坂雅代氏を、諮問第７号は石田和己氏の後任として仲嶋充利氏を、諮問第８号は大垣輝行氏の後任として大西正人氏を、諮問第９号は内海行之氏の後任として魚谷敏宏氏を、諮問第10号は松浦伸郎氏の後任として國部伸也氏を、諮問第11号は中尾五郎氏の後任として高馬朗氏を、諮問第12号は井上治美氏の後任として坂田基秀氏を、それぞれ適任と認め、候補者として推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-6",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "fcf7618d408aaee9942a355eb7f37b6c223bb8efabde8e442524c8aa4162b8ea",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-7",
+      "statements": [
+        {
+          "text": "石田和己さんが人権擁護委員の仕事をする期間が終わるので、仲嶋充利さんを新しい委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-7",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第7号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［石田和己委員の任期満了に伴い、後任として適任と認める仲嶋充利氏を新たに候補者として推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第５号から諮問第12号までは、来年３月31日をもって任期満了となる委員の後任の候補者を推薦しようとするものでございまして、諮問第５号は東海廣子氏の後任として石田日出夫氏を、諮問第６号は前田きみ代氏の後任として小坂雅代氏を、諮問第７号は石田和己氏の後任として仲嶋充利氏を、諮問第８号は大垣輝行氏の後任として大西正人氏を、諮問第９号は内海行之氏の後任として魚谷敏宏氏を、諮問第10号は松浦伸郎氏の後任として國部伸也氏を、諮問第11号は中尾五郎氏の後任として高馬朗氏を、諮問第12号は井上治美氏の後任として坂田基秀氏を、それぞれ適任と認め、候補者として推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-7",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "6320e4f9dfefcff9472af529e554e0c99d45b6b52210119cff2c06f8f8b8901f",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-8",
+      "statements": [
+        {
+          "text": "大垣輝行さんが人権擁護委員の仕事をする期間が終わるので、大西正人さんを新しい委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-8",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第8号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［大垣輝行委員の任期満了に伴い、後任として適任と認める大西正人氏を新たに候補者として推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第５号から諮問第12号までは、来年３月31日をもって任期満了となる委員の後任の候補者を推薦しようとするものでございまして、諮問第５号は東海廣子氏の後任として石田日出夫氏を、諮問第６号は前田きみ代氏の後任として小坂雅代氏を、諮問第７号は石田和己氏の後任として仲嶋充利氏を、諮問第８号は大垣輝行氏の後任として大西正人氏を、諮問第９号は内海行之氏の後任として魚谷敏宏氏を、諮問第10号は松浦伸郎氏の後任として國部伸也氏を、諮問第11号は中尾五郎氏の後任として高馬朗氏を、諮問第12号は井上治美氏の後任として坂田基秀氏を、それぞれ適任と認め、候補者として推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-8",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "8a002d419bf61e3687cbc061fcd2e0fe01b1e1cfa4ad2ab9a5861611aca9da1c",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-9",
+      "statements": [
+        {
+          "text": "内海行之さんが人権擁護委員の仕事をする期間が終わるので、魚谷敏宏さんを新しい委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-9",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第9号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［内海行之委員の任期満了に伴い、後任として適任と認める魚谷敏宏氏を新たに候補者として推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第５号から諮問第12号までは、来年３月31日をもって任期満了となる委員の後任の候補者を推薦しようとするものでございまして、諮問第５号は東海廣子氏の後任として石田日出夫氏を、諮問第６号は前田きみ代氏の後任として小坂雅代氏を、諮問第７号は石田和己氏の後任として仲嶋充利氏を、諮問第８号は大垣輝行氏の後任として大西正人氏を、諮問第９号は内海行之氏の後任として魚谷敏宏氏を、諮問第10号は松浦伸郎氏の後任として國部伸也氏を、諮問第11号は中尾五郎氏の後任として高馬朗氏を、諮問第12号は井上治美氏の後任として坂田基秀氏を、それぞれ適任と認め、候補者として推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-9",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "9a455e8c51c87931d877b59c22208835d2c8660fc315d594a077f2b17a676f0c",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-10",
+      "statements": [
+        {
+          "text": "松浦伸郎さんが人権擁護委員の仕事をする期間が終わるので、國部伸也さんを新しい委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-10",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第10号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［松浦伸郎委員の任期満了に伴い、後任として適任と認める國部伸也氏を新たに候補者として推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第５号から諮問第12号までは、来年３月31日をもって任期満了となる委員の後任の候補者を推薦しようとするものでございまして、諮問第５号は東海廣子氏の後任として石田日出夫氏を、諮問第６号は前田きみ代氏の後任として小坂雅代氏を、諮問第７号は石田和己氏の後任として仲嶋充利氏を、諮問第８号は大垣輝行氏の後任として大西正人氏を、諮問第９号は内海行之氏の後任として魚谷敏宏氏を、諮問第10号は松浦伸郎氏の後任として國部伸也氏を、諮問第11号は中尾五郎氏の後任として高馬朗氏を、諮問第12号は井上治美氏の後任として坂田基秀氏を、それぞれ適任と認め、候補者として推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-10",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "6bcc27a0c2a80f4099f966616fc2cefeb70f34f408668e088ad4fbedf08c3533",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-11",
+      "statements": [
+        {
+          "text": "中尾五郎さんが人権擁護委員の仕事をする期間が終わるので、髙馬朗さんを新しい委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "候補者名は公式HTMLの「髙馬朗」を保持しています。会議録の「高馬朗」と字体が異なります。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-11",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第11号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［中尾五郎委員の任期満了に伴い、後任として適任と認める髙馬朗氏を新たに候補者として推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第５号から諮問第12号までは、来年３月31日をもって任期満了となる委員の後任の候補者を推薦しようとするものでございまして、諮問第５号は東海廣子氏の後任として石田日出夫氏を、諮問第６号は前田きみ代氏の後任として小坂雅代氏を、諮問第７号は石田和己氏の後任として仲嶋充利氏を、諮問第８号は大垣輝行氏の後任として大西正人氏を、諮問第９号は内海行之氏の後任として魚谷敏宏氏を、諮問第10号は松浦伸郎氏の後任として國部伸也氏を、諮問第11号は中尾五郎氏の後任として高馬朗氏を、諮問第12号は井上治美氏の後任として坂田基秀氏を、それぞれ適任と認め、候補者として推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-11",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "e05622c85d83696cc7f2f4ab710521fc8b91815135ea5f64b0d8f568d5dd48af",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "inquiry-12",
+      "statements": [
+        {
+          "text": "井上治美さんが人権擁護委員の仕事をする期間が終わるので、坂田基秀さんを新しい委員の候補者としてすすめる案です。",
+          "evidenceIds": [
+            "title",
+            "officialSummary"
+          ]
+        }
+      ],
+      "reviewHints": [],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "inquiry-12",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "諮問第12号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "人権擁護委員候補者の推薦について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "known",
+            "raw": "［井上治美委員の任期満了に伴い、後任として適任と認める坂田基秀氏を新たに候補者として推薦しようとするもの］",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": {
+          "raw": "　諮問第５号から諮問第12号までは、来年３月31日をもって任期満了となる委員の後任の候補者を推薦しようとするものでございまして、諮問第５号は東海廣子氏の後任として石田日出夫氏を、諮問第６号は前田きみ代氏の後任として小坂雅代氏を、諮問第７号は石田和己氏の後任として仲嶋充利氏を、諮問第８号は大垣輝行氏の後任として大西正人氏を、諮問第９号は内海行之氏の後任として魚谷敏宏氏を、諮問第10号は松浦伸郎氏の後任として國部伸也氏を、諮問第11号は中尾五郎氏の後任として高馬朗氏を、諮問第12号は井上治美氏の後任として坂田基秀氏を、それぞれ適任と認め、候補者として推薦しようとするものでございます。",
+          "sourceUrl": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433&HUID=203273",
+          "retrievedAt": "2026-09-22T16:27:06.883426Z",
+          "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+          "associationId": "2433-203273-inquiry-12",
+          "associationStatus": "unreviewed"
+        }
+      },
+      "inputSha256": "72f4e1d18b84555c269d3e1691bedfd23abf20150d538b026adbdc302692cf74",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "itemId": "member-bill-7",
+      "statements": [
+        {
+          "text": "市議会の議員の人数を決める市の決まりを変える案です。何人にするのか、増やすのか減らすのかは、取りこんだ資料だけでは分かりません。",
+          "evidenceIds": [
+            "title"
+          ]
+        }
+      ],
+      "reviewHints": [
+        "変更する人数や増減の方向は、取得済みの公式概要・提案説明では確認できません。推測で補っていません。"
+      ],
+      "input": {
+        "sessionId": "himeji-2025-4",
+        "itemId": "member-bill-7",
+        "fields": [
+          {
+            "field": "officialNumber",
+            "state": "known",
+            "raw": "議員提出議案第7号",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "title",
+            "state": "known",
+            "raw": "姫路市議会議員定数条例の一部を改正する条例について",
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          },
+          {
+            "field": "officialSummary",
+            "state": "not_in_official_source",
+            "raw": null,
+            "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+            "retrievedAt": "2026-09-22T00:24:35+00:00"
+          }
+        ],
+        "proposal": null
+      },
+      "inputSha256": "6275e82a489e98042607d822fe4daf980424a54130dd07cb22cb23ecccf96c7d",
+      "createdAt": "2026-09-23T15:24:43.167Z",
+      "authoring": "assistant_draft",
+      "reviewStatus": "unreviewed"
+    }
+  ]
+}

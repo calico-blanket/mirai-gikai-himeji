@@ -1,0 +1,35 @@
+{
+  "pdfUrl": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000032/32187/teisyutugiannsinngikekka.pdf",
+  "retrievedAt": "2026-09-22T08:36:09Z",
+  "pdfSha256": "3c583db74944de761c8260c06e6f88c0deadd314b280989e292e301e92e3aaca",
+  "pdfPages": 4,
+  "itemRows": 52,
+  "memberColumns": 45,
+  "factionCounts": {
+    "公明党": 8,
+    "市民クラブ": 8,
+    "自由民主党": 7,
+    "新生ひめじ": 5,
+    "日本維新の会": 4,
+    "姫路無所属の会": 3,
+    "改革無所属の会": 3,
+    "志政会": 2,
+    "日本共産党議員団": 3,
+    "刷新の会": 1,
+    "無所属": 1
+  },
+  "symbolCounts": {
+    "○": 2166,
+    "-": 52,
+    "〇": 58,
+    "✕": 64
+  },
+  "normalizedCounts": {
+    "for": 2224,
+    "chair_not_voting": 52,
+    "against": 64
+  },
+  "extractionExceptions": [],
+  "humanReviewStatus": "unreviewed",
+  "note": "機械抽出の候補。所属と賛否は原PDFとの人手照合前で、公開用ではない。"
+}

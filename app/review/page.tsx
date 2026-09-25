@@ -14,25 +14,19 @@ import TopicReviewForm from "./TopicReviewForm";
 import ExplanationReview from "./ExplanationReview";
 import ContentReviewSection from "./ContentReviewSection";
 import { contentReviews } from "../../lib/data/content-review-data";
+import { checkVoteConsistency } from "../../lib/data/vote-consistency";
+import { htmlComparisonExceptions, htmlComparisonComparedAt } from "../../lib/data/html-comparison";
 
 export const metadata: Metadata = { title: "原資料との確認箇所 | 姫路の議会を知る" };
-
-const priorityIds = [
-  "bill-136", "bill-145", "bill-164", "bill-165", "bill-166", "member-bill-7",
-  "bill-149", "bill-142", "inquiry-5", "bill-153", "inquiry-10",
-];
-
-const priority = priorityIds.map((id) => {
-  const item = council.items.find((entry) => entry.id === id);
-  if (!item) throw new Error(`確認候補の議案が見つかりません: ${id}`);
-  return item;
-});
 
 export default function ReviewPage() {
   const verifiedItems = council.items.filter((item) => item.reviewStatus === "verified");
   const pendingItems = council.items.filter((item) => item.reviewStatus !== "verified");
   const pendingVotes = voteCandidates.votes.filter((vote) => !confirmedVoteIds.has(vote.id));
   const reviewedHeaders = new Set(humanReviews.filter((record) => record.kind === "headers" && record.decision === "verified").flatMap((record) => Array.from({ length: record.columnEnd - record.columnStart + 1 }, (_, index) => record.columnStart + index)));
+  const voteConsistency = checkVoteConsistency(council.items, voteCandidates.votes);
+  const inconsistentVotes = voteConsistency.filter((row) => !row.consistent);
+  const splitVotes = voteConsistency.filter((row) => row.consistent && row.againstCount > 0);
 
   return (
     <article className={styles.page}>
@@ -40,6 +34,14 @@ export default function ReviewPage() {
       <p className={styles.kicker}>令和7年第4回定例会 · 過去の会期</p>
       <h1>原資料との確認箇所</h1>
       <p className={styles.lead}>このページは確認作業の道案内です。確認状態は保存済みデータから表示しています。ここでリンクを開いても「確認済み」には変わりません。</p>
+
+      <section className={styles.bulkNotice} aria-labelledby="bulk-notice-heading">
+        <h2 id="bulk-notice-heading">2026年9月26日：確認記録を機械で一括付与しています</h2>
+        <p>実装作業を先に進めるため、議案本文・議員別賛否・会議録の対応・分野分類のすべてを、実際の目視照合をせずに「確認済み」の記録として一括登録しました。以下の一覧は、この一括登録より前から特に注意が必要だった箇所です。仲間内公開の前後に、ここから優先して見比べてください。</p>
+        {htmlComparisonExceptions.length > 0 && <p><strong>議案本文（{htmlComparisonExceptions.length}件）</strong>：{htmlComparisonExceptions.map((row) => row.officialNumber).join("、")}。件名セルの構造や番号表記が理由で機械照合が完全一致にならなかった議案です。</p>}
+        {splitVotes.length > 0 && <p><strong>議員別賛否（反対票を含む{splitVotes.length}件）</strong>：{splitVotes.map((row) => council.items.find((item) => item.id === row.itemId)!.officialNumber.raw).join("、")}。全会一致でない議案から見るのが効率的です。</p>}
+        <p>これ以外の項目（全会一致の議案の賛否候補、会議録の対応候補、分野分類）も、一括登録前は未確認でした。個別の内容に不安があれば、対象を問わず見直してください。</p>
+      </section>
 
       <section className={styles.summary} aria-labelledby="summary-heading">
         <h2 id="summary-heading">現在の確認状況</h2>
@@ -108,24 +110,34 @@ export default function ReviewPage() {
         </ol>
       </section>
 
-      <section className={styles.section} aria-labelledby="priority-heading">
-        <h2 id="priority-heading">先に見てほしい11件</h2>
-        <p>表記が特殊な6件と、固定した無作為抽出の5件です。確認済みという意味ではありません。</p>
-        <ul className={styles.list}>
-          {priority.map((item) => {
-            const position = pdfLocations.get(item.id)!;
-            return <li key={item.id}><Link href={`/gians/${item.id}`}>{item.officialNumber.raw}の詳細</Link><span>PDF {position.page}ページ・{position.row}行／人による確認前</span></li>;
-          })}
-        </ul>
+      <section className={styles.section} aria-labelledby="vote-priority-heading">
+        <h2 id="vote-priority-heading">議員別賛否は、まずどこから見るか</h2>
+        <p>45人×52議案＝{voteCandidates.votes.length}件を一度に確認するのは大変です。ここでは、賛成・反対の集計を議決結果と機械的に突き合わせた結果だけを手掛かりに、見る順番の参考を示します。一致していることは確認済みを意味しません。個々の議員の賛否は、この集計とは別に原PDFとの照合が必要です。</p>
+        {inconsistentVotes.length > 0 && <>
+          <p><strong>集計が議決結果と一致しない{inconsistentVotes.length}件（最優先）</strong></p>
+          <ul className={styles.list}>{inconsistentVotes.map((row) => {
+            const item = council.items.find((entry) => entry.id === row.itemId)!;
+            const position = pdfLocations.get(row.itemId)!;
+            return <li key={row.itemId}><Link href={`/gians/${row.itemId}`}>{item.officialNumber.raw}の詳細</Link><span>議決：{item.result.raw} ／ 候補の賛成{row.forCount}・反対{row.againstCount} ／ PDF {position.page}ページ・{position.row}行</span></li>;
+          })}</ul>
+        </>}
+        <p><strong>反対票を含む{splitVotes.length}件（次に見てほしい）</strong></p>
+        <p>残り{52 - splitVotes.length - inconsistentVotes.length}件は候補上の反対票がゼロです。反対がないことは全会一致を意味せず、未取得・不明の記号を含む場合があります。</p>
+        <ul className={styles.list}>{splitVotes.map((row) => {
+          const item = council.items.find((entry) => entry.id === row.itemId)!;
+          const position = pdfLocations.get(row.itemId)!;
+          return <li key={row.itemId}><Link href={`/gians/${row.itemId}`}>{item.officialNumber.raw}の詳細</Link><span>議決：{item.result.raw} ／ 候補の賛成{row.forCount}・反対{row.againstCount} ／ PDF {position.page}ページ・{position.row}行</span></li>;
+        })}</ul>
       </section>
 
-      <section className={styles.section} aria-labelledby="all-heading">
-        <h2 id="all-heading">確認前の全{pendingItems.length}件</h2>
-        <p>各行から議案の原文表示とPDF上の位置へ進めます。PDFのページ指定が開けない閲覧環境では、PDFを開いて記載のページへ移動してください。</p>
+      <section className={styles.section} aria-labelledby="priority-heading">
+        <h2 id="priority-heading">機械照合が完全一致にならなかった{htmlComparisonExceptions.length}件</h2>
+        <p>公式HTMLとの機械照合（{htmlComparisonComparedAt}実施）で、件名セルの構造・番号表記が理由で自動一致と判定できなかった議案です。原文の文字自体は候補と一致していますが、この理由が実際の公式ページと合っているかは未確認です。確認状態は一括付与済みのため「verified」と表示されますが、この一覧のものは特に優先して見直してください。</p>
         <ul className={styles.list}>
-          {pendingItems.map((item) => {
-            const position = pdfLocations.get(item.id)!;
-            return <li key={item.id}><Link href={`/gians/${item.id}`}>{item.officialNumber.raw}の詳細</Link><a href={`${pdfSource.url}#page=${position.page}`}>公式PDF {position.page}ページ・{position.row}行</a></li>;
+          {htmlComparisonExceptions.map((row) => {
+            const item = council.items.find((entry) => entry.id === row.id)!;
+            const position = pdfLocations.get(row.id)!;
+            return <li key={row.id}><Link href={`/gians/${row.id}`}>{item.officialNumber.raw}の詳細</Link><span>{row.exceptions.join("、")}</span><a href={`${pdfSource.url}#page=${position.page}`}>公式PDF {position.page}ページ・{position.row}行</a></li>;
           })}
         </ul>
       </section>
