@@ -2,6 +2,7 @@ import { ImageResponse } from "next/og";
 export const alt = "姫路の議会を知る：令和7年第4回定例会を対象とする非公式サービス";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
+export const dynamic = "force-static";
 
 // 外部フォント・参照元プロジェクトの画像を使用しない、このサービス独自の共有用画像。
 export default function Image() {

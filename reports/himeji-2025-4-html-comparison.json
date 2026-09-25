@@ -1,0 +1,1592 @@
+{
+  "sourceUrl": "https://www.city.himeji.lg.jp/shisei/0000032187.html",
+  "sourceRetrievedAt": "2026-09-22T08:36:34Z",
+  "officialTableCount": 3,
+  "officialRowCount": 52,
+  "storedItemCount": 52,
+  "statusCounts": {
+    "exact": 52,
+    "different": 0,
+    "uncomparable": 0
+  },
+  "fieldStatusCounts": {
+    "officialNumber": {
+      "exact": 52,
+      "different": 0,
+      "uncomparable": 0
+    },
+    "title": {
+      "exact": 52,
+      "different": 0,
+      "uncomparable": 0
+    },
+    "officialSummary": {
+      "exact": 52,
+      "different": 0,
+      "uncomparable": 0
+    },
+    "result": {
+      "exact": 52,
+      "different": 0,
+      "uncomparable": 0
+    }
+  },
+  "focusedHumanReview": {
+    "differencesAndExceptions": [
+      "bill-136",
+      "bill-145",
+      "bill-164",
+      "bill-165",
+      "bill-166",
+      "member-bill-7"
+    ],
+    "randomSampleSeed": 20250922,
+    "randomSample": [
+      "bill-149",
+      "bill-142",
+      "inquiry-5",
+      "bill-153",
+      "inquiry-10"
+    ]
+  },
+  "items": [
+    {
+      "id": "bill-135",
+      "officialNumber": "議案第135号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第135号",
+          "officialRaw": "議案第135号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "令和7年度姫路市一般会計補正予算（第4回）",
+          "officialRaw": "令和7年度姫路市一般会計補正予算（第4回）"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": null,
+          "officialRaw": null
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [
+        "公式件名セルに概要の括弧書きがない"
+      ],
+      "humanReviewStatus": "verified"
+    },
+    {
+      "id": "bill-136",
+      "officialNumber": "議案第136号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第136号",
+          "officialRaw": "議案第136号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "令和7年度姫路市介護保険事業特別会計補正予算（第1回）",
+          "officialRaw": "令和7年度姫路市介護保険事業特別会計補正予算（第1回）"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": null,
+          "officialRaw": null
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [
+        "公式件名セルに概要の括弧書きがない"
+      ],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-137",
+      "officialNumber": "議案第137号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第137号",
+          "officialRaw": "議案第137号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市長等の損害賠償責任の一部免責に関する条例の一部を改正する条例について",
+          "officialRaw": "姫路市長等の損害賠償責任の一部免責に関する条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[地方自治法施行令の改正に伴い、必要な規定整理をしようとするもの]",
+          "officialRaw": "[地方自治法施行令の改正に伴い、必要な規定整理をしようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-138",
+      "officialNumber": "議案第138号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第138号",
+          "officialRaw": "議案第138号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市指定障害児通所支援の事業等の人員、設備及び運営に関する基準を定める条例の一部を改正する条例について",
+          "officialRaw": "姫路市指定障害児通所支援の事業等の人員、設備及び運営に関する基準を定める条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[児童福祉法に基づく指定通所支援の事業等の人員、設備及び運営に関する基準を定める厚生労働省令が改正され、指定児童発達支援事業所を利用する障害児に対する健康診断の全部又は一部を行わないことができる場合として、母子保健法の規定による乳幼児に対する健康診査の内容が当該健康診断の全部又は一部に相当すると認められ、かつ、当該指定児童発達支援事業所が当該健康診査の結果を把握する場合が加えられたため、省令と同様の改正をしようとするもの]",
+          "officialRaw": "[児童福祉法に基づく指定通所支援の事業等の人員、設備及び運営に関する基準を定める厚生労働省令が改正され、指定児童発達支援事業所を利用する障害児に対する健康診断の全部又は一部を行わないことができる場合として、母子保健法の規定による乳幼児に対する健康診査の内容が当該健康診断の全部又は一部に相当すると認められ、かつ、当該指定児童発達支援事業所が当該健康診査の結果を把握する場合が加えられたため、省令と同様の改正をしようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-139",
+      "officialNumber": "議案第139号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第139号",
+          "officialRaw": "議案第139号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市放課後児童健全育成事業の設備及び運営に関する基準を定める条例等の一部を改正する条例について",
+          "officialRaw": "姫路市放課後児童健全育成事業の設備及び運営に関する基準を定める条例等の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[児童福祉法、学校教育法及び就学前の子どもに関する教育、保育等の総合的な提供の推進に関する法律の改正に伴い、必要な規定整理をしようとするもの]",
+          "officialRaw": "[児童福祉法、学校教育法及び就学前の子どもに関する教育、保育等の総合的な提供の推進に関する法律の改正に伴い、必要な規定整理をしようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-140",
+      "officialNumber": "議案第140号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第140号",
+          "officialRaw": "議案第140号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市放課後児童クラブ条例の一部を改正する条例について",
+          "officialRaw": "姫路市放課後児童クラブ条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[人件費及び物件費の高騰に伴う放課後児童クラブの運営経費の増加を踏まえ、放課後児童支援員等の確保、備品の充実及び利用者負担の適正化を図るため、利用者負担金の額を引き上げるとともに、峰相小学校の整備に伴う峰相放課後児童クラブの同小学校内への移転に伴い、同クラブの位置を変更しようとするもの]",
+          "officialRaw": "[人件費及び物件費の高騰に伴う放課後児童クラブの運営経費の増加を踏まえ、放課後児童支援員等の確保、備品の充実及び利用者負担の適正化を図るため、利用者負担金の額を引き上げるとともに、峰相小学校の整備に伴う峰相放課後児童クラブの同小学校内への移転に伴い、同クラブの位置を変更しようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-141",
+      "officialNumber": "議案第141号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第141号",
+          "officialRaw": "議案第141号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市児童福祉施設の設備及び運営に関する基準を定める条例の一部を改正する条例について",
+          "officialRaw": "姫路市児童福祉施設の設備及び運営に関する基準を定める条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[児童福祉施設の設備及び運営に関する基準を定める厚生省令が改正され、児童福祉施設に入所する乳幼児に対する健康診断の全部又は一部を行わないことができる場合として、母子保健法の規定による乳幼児に対する健康診査の内容が当該健康診断の全部又は一部に相当すると認められ、かつ、当該児童福祉施設が当該健康診査の結果を把握する場合が加えられるとともに、母子生活支援施設の長及び母子支援員の任用要件に「こども家庭ソーシャルワーカー」の資格を有する者が追加されたため、省令と同様の改正をするほか、必要な規定整理をしようとするもの]",
+          "officialRaw": "[児童福祉施設の設備及び運営に関する基準を定める厚生省令が改正され、児童福祉施設に入所する乳幼児に対する健康診断の全部又は一部を行わないことができる場合として、母子保健法の規定による乳幼児に対する健康診査の内容が当該健康診断の全部又は一部に相当すると認められ、かつ、当該児童福祉施設が当該健康診査の結果を把握する場合が加えられるとともに、母子生活支援施設の長及び母子支援員の任用要件に「こども家庭ソーシャルワーカー」の資格を有する者が追加されたため、省令と同様の改正をするほか、必要な規定整理をしようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-142",
+      "officialNumber": "議案第142号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第142号",
+          "officialRaw": "議案第142号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市家庭的保育事業等の設備及び運営に関する基準を定める条例の一部を改正する条例について",
+          "officialRaw": "姫路市家庭的保育事業等の設備及び運営に関する基準を定める条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[家庭的保育事業等の設備及び運営に関する基準を定める厚生労働省令が改正され、家庭的保育事業を利用する乳幼児に対する健康診断の全部又は一部を行わないことができる場合として、母子保健法の規定による乳幼児に対する健康診査の内容が当該健康診断の全部又は一部に相当すると認められ、かつ、当該家庭的保育事業者が当該健康診査の結果を把握する場合が加えられたため、省令と同様の改正をするほか、必要な規定整理をしようとするもの]",
+          "officialRaw": "[家庭的保育事業等の設備及び運営に関する基準を定める厚生労働省令が改正され、家庭的保育事業を利用する乳幼児に対する健康診断の全部又は一部を行わないことができる場合として、母子保健法の規定による乳幼児に対する健康診査の内容が当該健康診断の全部又は一部に相当すると認められ、かつ、当該家庭的保育事業者が当該健康診査の結果を把握する場合が加えられたため、省令と同様の改正をするほか、必要な規定整理をしようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-143",
+      "officialNumber": "議案第143号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第143号",
+          "officialRaw": "議案第143号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市立美術館条例の一部を改正する条例について",
+          "officialRaw": "姫路市立美術館条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[将来を担う子どもたちの観覧を促進するため、18歳に達する日以後の最初の3月31日までの間にある者の観覧料を無料とするほか、団体料金が適用される団体の人数を20人以上から30人以上に変更する等の必要な規定整備をしようとするもの]",
+          "officialRaw": "[将来を担う子どもたちの観覧を促進するため、18歳に達する日以後の最初の3月31日までの間にある者の観覧料を無料とするほか、団体料金が適用される団体の人数を20人以上から30人以上に変更する等の必要な規定整備をしようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-144",
+      "officialNumber": "議案第144号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第144号",
+          "officialRaw": "議案第144号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路文学館条例の一部を改正する条例について",
+          "officialRaw": "姫路文学館条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[将来を担う子どもたちの観覧を促進するため、18歳に達する日以後の最初の3月31日までの間にある者の観覧料を無料とするほか、団体料金が適用される団体の人数を20人以上から30人以上に変更する等の必要な規定整備をしようとするもの]",
+          "officialRaw": "[将来を担う子どもたちの観覧を促進するため、18歳に達する日以後の最初の3月31日までの間にある者の観覧料を無料とするほか、団体料金が適用される団体の人数を20人以上から30人以上に変更する等の必要な規定整備をしようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-145",
+      "officialNumber": "議案145号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案145号",
+          "officialRaw": "議案145号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路城西御屋敷跡庭園好古園条例の一部を改正する条例の一部を改正する条例について",
+          "officialRaw": "姫路城西御屋敷跡庭園好古園条例の一部を改正する条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[令和7年3月26日に議決を得た議案第42号姫路城西御屋敷跡庭園好古園条例の一部を改正する条例において、入園料を無料とする者を高等学校等に在学する18歳の者を含む18歳未満の者としたことについて、対象を18歳に達する日以後の最初の3月31日までの間にある者に変更しようとするもの]",
+          "officialRaw": "[令和7年3月26日に議決を得た議案第42号姫路城西御屋敷跡庭園好古園条例の一部を改正する条例において、入園料を無料とする者を高等学校等に在学する18歳の者を含む18歳未満の者としたことについて、対象を18歳に達する日以後の最初の3月31日までの間にある者に変更しようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [
+        "議案番号の原文と正規化値が異なる"
+      ],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-146",
+      "officialNumber": "議案第146号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第146号",
+          "officialRaw": "議案第146号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路城縦覧料等徴収条例の一部を改正する条例の一部を改正する条例について",
+          "officialRaw": "姫路城縦覧料等徴収条例の一部を改正する条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[令和7年3月26日に議決を得た議案第43号姫路城縦覧料等徴収条例の一部を改正する条例において、縦覧料を無料とする者を高等学校等に在学する18歳の者を含む18歳未満の者としたことについて、対象を18歳に達する日以後の最初の3月31日までの間にある者に変更しようとするもの]",
+          "officialRaw": "[令和7年3月26日に議決を得た議案第43号姫路城縦覧料等徴収条例の一部を改正する条例において、縦覧料を無料とする者を高等学校等に在学する18歳の者を含む18歳未満の者としたことについて、対象を18歳に達する日以後の最初の3月31日までの間にある者に変更しようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-147",
+      "officialNumber": "議案第147号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第147号",
+          "officialRaw": "議案第147号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市営住宅管理条例の一部を改正する条例について",
+          "officialRaw": "姫路市営住宅管理条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[子育て世帯及び若年夫婦世帯の市営住宅への入居を促進するため、これらの世帯の入居収入基準を引き下げるとともに、子育て世帯の対象を同居者に小学校就学の始期に達するまでの者がある場合から同居者に18歳未満の子がある場合に拡大するほか、必要な規定整理をしようとするもの]",
+          "officialRaw": "[子育て世帯及び若年夫婦世帯の市営住宅への入居を促進するため、これらの世帯の入居収入基準を引き下げるとともに、子育て世帯の対象を同居者に小学校就学の始期に達するまでの者がある場合から同居者に18歳未満の子がある場合に拡大するほか、必要な規定整理をしようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-148",
+      "officialNumber": "議案第148号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第148号",
+          "officialRaw": "議案第148号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市道路附属物自転車等駐車場条例の一部を改正する条例について",
+          "officialRaw": "姫路市道路附属物自転車等駐車場条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[電磁ロック等により車輪を施錠して管理する個別施錠装置を導入することに伴い、当該装置を使用する場合における自転車等駐車場の使用許可に関する規定を定めるとともに、手柄山駐輪場を定期利用する者に対して定期利用を証する自転車等に貼付するシール形式のものを発行することに伴い、定期利用券に関する規定を定期利用券と当該シール形式のものを包括する定期利用証に関する規定に改めるほか、駐車料金の徴収時期について必要な規定整備をしようとするもの]",
+          "officialRaw": "[電磁ロック等により車輪を施錠して管理する個別施錠装置を導入することに伴い、当該装置を使用する場合における自転車等駐車場の使用許可に関する規定を定めるとともに、手柄山駐輪場を定期利用する者に対して定期利用を証する自転車等に貼付するシール形式のものを発行することに伴い、定期利用券に関する規定を定期利用券と当該シール形式のものを包括する定期利用証に関する規定に改めるほか、駐車料金の徴収時期について必要な規定整備をしようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-149",
+      "officialNumber": "議案第149号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第149号",
+          "officialRaw": "議案第149号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市市民会館条例を廃止する条例について",
+          "officialRaw": "姫路市市民会館条例を廃止する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[令和8年度末をもって、姫路市市民会館を廃止しようとするもの]",
+          "officialRaw": "[令和8年度末をもって、姫路市市民会館を廃止しようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-150",
+      "officialNumber": "議案第150号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第150号",
+          "officialRaw": "議案第150号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市青少年センター条例を廃止する条例について",
+          "officialRaw": "姫路市青少年センター条例を廃止する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[令和8年度末をもって、姫路市青少年センターを廃止しようとするもの]",
+          "officialRaw": "[令和8年度末をもって、姫路市青少年センターを廃止しようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-151",
+      "officialNumber": "議案第151号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第151号",
+          "officialRaw": "議案第151号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "契約の締結について(坊勢漁港(亀岩地区)亀岩-2.0m物揚場D外地盤改良工事請負契約の締結)",
+          "officialRaw": "契約の締結について(坊勢漁港(亀岩地区)亀岩-2.0m物揚場D外地盤改良工事請負契約の締結)"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[契約金額 250,547,000円]",
+          "officialRaw": "[契約金額 250,547,000円]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "同意",
+          "officialRaw": "同意"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-152",
+      "officialNumber": "議案第152号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第152号",
+          "officialRaw": "議案第152号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "契約の締結について(大手前公園地下駐車場改修工事請負契約の締結)",
+          "officialRaw": "契約の締結について(大手前公園地下駐車場改修工事請負契約の締結)"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[契約金額 790,900,000円]",
+          "officialRaw": "[契約金額 790,900,000円]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "同意",
+          "officialRaw": "同意"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-153",
+      "officialNumber": "議案第153号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第153号",
+          "officialRaw": "議案第153号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "契約の締結について(姫路市立大津茂小学校屋内運動場長寿命化改修等(建築)工事請負契約の締結)",
+          "officialRaw": "契約の締結について(姫路市立大津茂小学校屋内運動場長寿命化改修等(建築)工事請負契約の締結)"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[契約金額 280,500,000円]",
+          "officialRaw": "[契約金額 280,500,000円]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "同意",
+          "officialRaw": "同意"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-154",
+      "officialNumber": "議案第154号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第154号",
+          "officialRaw": "議案第154号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "土地の取得について((仮称)道の駅姫路整備事業及びこれに伴う普通河川付替工事のための用地の取得)",
+          "officialRaw": "土地の取得について((仮称)道の駅姫路整備事業及びこれに伴う普通河川付替工事のための用地の取得)"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[取得地積 5,125.22平方メートル]",
+          "officialRaw": "[取得地積 5,125.22平方メートル]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-155",
+      "officialNumber": "議案第155号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第155号",
+          "officialRaw": "議案第155号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市立夢前福祉センターに係る指定管理者の指定について",
+          "officialRaw": "姫路市立夢前福祉センターに係る指定管理者の指定について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[指定管理者となる団体 株式会社エヌ・エス・アイ]",
+          "officialRaw": "[指定管理者となる団体 株式会社エヌ・エス・アイ]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-156",
+      "officialNumber": "議案第156号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第156号",
+          "officialRaw": "議案第156号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市文化コンベンションセンター及びキャスティ21公園に係る指定管理者の指定について",
+          "officialRaw": "姫路市文化コンベンションセンター及びキャスティ21公園に係る指定管理者の指定について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[指定管理者となる団体 姫路市文化コンベンションセンター運営共同事業体]",
+          "officialRaw": "[指定管理者となる団体 姫路市文化コンベンションセンター運営共同事業体]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-157",
+      "officialNumber": "議案第157号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第157号",
+          "officialRaw": "議案第157号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市家島B&G海洋センター等に係る指定管理者の指定について",
+          "officialRaw": "姫路市家島B&G海洋センター等に係る指定管理者の指定について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[指定管理者となる団体 有限会社アクアプランニング]",
+          "officialRaw": "[指定管理者となる団体 有限会社アクアプランニング]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-158",
+      "officialNumber": "議案第158号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第158号",
+          "officialRaw": "議案第158号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市立図書館飾磨分館等に係る指定管理者の指定について",
+          "officialRaw": "姫路市立図書館飾磨分館等に係る指定管理者の指定について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[指定管理者となる団体 光栄産業株式会社]",
+          "officialRaw": "[指定管理者となる団体 光栄産業株式会社]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-159",
+      "officialNumber": "議案第159号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第159号",
+          "officialRaw": "議案第159号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "神河町と姫路市との消防に関する事務の委託に関する規約の一部変更について",
+          "officialRaw": "神河町と姫路市との消防に関する事務の委託に関する規約の一部変更について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[福崎町、市川町及び神河町から本市に委託されている消防に関する事務について、市川町に設置している中播消防署北部出張所を神河町に移転し、再整備することに伴い、当該出張所に係る土地及び建物について本市が無償貸与を受けるための規約の変更について同町と協議しようとするもの]",
+          "officialRaw": "[福崎町、市川町及び神河町から本市に委託されている消防に関する事務について、市川町に設置している中播消防署北部出張所を神河町に移転し、再整備することに伴い、当該出張所に係る土地及び建物について本市が無償貸与を受けるための規約の変更について同町と協議しようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-160",
+      "officialNumber": "議案第160号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第160号",
+          "officialRaw": "議案第160号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "加古川市外2市共有公会堂事務組合規約の一部変更について",
+          "officialRaw": "加古川市外2市共有公会堂事務組合規約の一部変更について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[加古川市外2市共有公会堂事務組合の解散に伴う事務を加古川市が承継すること及び残余財産の分配に関する規約の変更について関係市で協議しようとするもの]",
+          "officialRaw": "[加古川市外2市共有公会堂事務組合の解散に伴う事務を加古川市が承継すること及び残余財産の分配に関する規約の変更について関係市で協議しようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-161",
+      "officialNumber": "議案第161号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第161号",
+          "officialRaw": "議案第161号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "加古川市外2市共有公会堂事務組合の解散について",
+          "officialRaw": "加古川市外2市共有公会堂事務組合の解散について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[本年度末をもって、加古川市外2市共有公会堂事務組合を解散することについて関係市で協議しようとするもの]",
+          "officialRaw": "[本年度末をもって、加古川市外2市共有公会堂事務組合を解散することについて関係市で協議しようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-162",
+      "officialNumber": "議案第162号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第162号",
+          "officialRaw": "議案第162号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "加古川市外2市共有公会堂事務組合の解散に伴う財産処分について",
+          "officialRaw": "加古川市外2市共有公会堂事務組合の解散に伴う財産処分について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[加古川市外2市共有公会堂事務組合の解散に際し必要となる財産処分として、同組合の残余財産を関係市に帰属させることについて関係市で協議しようとするもの]",
+          "officialRaw": "[加古川市外2市共有公会堂事務組合の解散に際し必要となる財産処分として、同組合の残余財産を関係市に帰属させることについて関係市で協議しようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-163",
+      "officialNumber": "議案第163号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第163号",
+          "officialRaw": "議案第163号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "議決更正について(手柄山スポーツ施設整備運営事業契約に係る議決更正)",
+          "officialRaw": "議決更正について(手柄山スポーツ施設整備運営事業契約に係る議決更正)"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "[契約金額を増額しようとするもの]",
+          "officialRaw": "[契約金額を増額しようとするもの]"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-164",
+      "officialNumber": "議案第164号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第164号",
+          "officialRaw": "議案第164号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "令和7年度姫路市一般会計補正予算（第5回）",
+          "officialRaw": "令和7年度姫路市一般会計補正予算（第5回）"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": null,
+          "officialRaw": null
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [
+        "公式件名セルに概要の括弧書きがない"
+      ],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-165",
+      "officialNumber": "議案第165号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第165号",
+          "officialRaw": "議案第165号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "令和7年度姫路市国民健康保険事業特別会計補正予算（第1回）",
+          "officialRaw": "令和7年度姫路市国民健康保険事業特別会計補正予算（第1回）"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": null,
+          "officialRaw": null
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [
+        "公式件名セルに概要の括弧書きがない"
+      ],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-166",
+      "officialNumber": "議案第166号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第166号",
+          "officialRaw": "議案第166号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "令和7年度姫路市介護保険事業特別会計補正予算（第2回）",
+          "officialRaw": "令和7年度姫路市介護保険事業特別会計補正予算（第2回）"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": null,
+          "officialRaw": null
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [
+        "公式件名セルに概要の括弧書きがない"
+      ],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-167",
+      "officialNumber": "議案第167号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第167号",
+          "officialRaw": "議案第167号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市職員給与条例等の一部を改正する条例について",
+          "officialRaw": "姫路市職員給与条例等の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［国家公務員の給与改定を踏まえ、一般職の職員の期末手当及び勤勉手当並びに特定任期付職員の期末手当の年間支給月数を引き上げるとともに、一般職の職員の給料表の増額改定をするほか、交通用具使用者に係る通勤手当の引上げ等の必要な規定整備をしようとするもの］",
+          "officialRaw": "［国家公務員の給与改定を踏まえ、一般職の職員の期末手当及び勤勉手当並びに特定任期付職員の期末手当の年間支給月数を引き上げるとともに、一般職の職員の給料表の増額改定をするほか、交通用具使用者に係る通勤手当の引上げ等の必要な規定整備をしようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-168",
+      "officialNumber": "議案第168号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第168号",
+          "officialRaw": "議案第168号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "特別職の職員で常勤のものの給与に関する条例の一部を改正する条例について",
+          "officialRaw": "特別職の職員で常勤のものの給与に関する条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［一般職の職員の給与改定を踏まえ、特別職の職員で常勤のものの期末手当の年間支給月数を引き上げようとするもの］",
+          "officialRaw": "［一般職の職員の給与改定を踏まえ、特別職の職員で常勤のものの期末手当の年間支給月数を引き上げようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-169",
+      "officialNumber": "議案第169号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第169号",
+          "officialRaw": "議案第169号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市議会の議員の議員報酬等に関する条例の一部を改正する条例について",
+          "officialRaw": "姫路市議会の議員の議員報酬等に関する条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［一般職の職員及び特別職の職員で常勤のものの給与改定を踏まえ、市議会議員の期末手当の年間支給月数を引き上げようとするもの］",
+          "officialRaw": "［一般職の職員及び特別職の職員で常勤のものの給与改定を踏まえ、市議会議員の期末手当の年間支給月数を引き上げようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-170",
+      "officialNumber": "議案第170号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第170号",
+          "officialRaw": "議案第170号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市立学校職員の給与に関する条例の一部を改正する条例について",
+          "officialRaw": "姫路市立学校職員の給与に関する条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［学校職員の給与について、一般職の職員と同様に給料表の増額改定をするとともに、県において、公立の義務教育諸学校等の教育職員の給与等に関する特別措置法の改正により教職調整額の支給率の引上げや教員特別手当の見直しが行われたことに伴い、本市の学校職員の給与についても同様の改正をするほか、必要な規定整理をしようとするもの］",
+          "officialRaw": "［学校職員の給与について、一般職の職員と同様に給料表の増額改定をするとともに、県において、公立の義務教育諸学校等の教育職員の給与等に関する特別措置法の改正により教職調整額の支給率の引上げや教員特別手当の見直しが行われたことに伴い、本市の学校職員の給与についても同様の改正をするほか、必要な規定整理をしようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-171",
+      "officialNumber": "議案第171号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第171号",
+          "officialRaw": "議案第171号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市立学校職員の特殊勤務手当に関する条例の一部を改正する条例について",
+          "officialRaw": "姫路市立学校職員の特殊勤務手当に関する条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［県において、公立学校教職員の特殊業務手当のうち、幼児又は生徒の負傷、疾病等に伴う救急業務に係るもの及び幼児又は生徒に対する補導業務に係るものの額が500円引き上げられることに伴い、本市の学校職員の教員特殊業務手当についても同様の改正をしようとするもの］",
+          "officialRaw": "［県において、公立学校教職員の特殊業務手当のうち、幼児又は生徒の負傷、疾病等に伴う救急業務に係るもの及び幼児又は生徒に対する補導業務に係るものの額が500円引き上げられることに伴い、本市の学校職員の教員特殊業務手当についても同様の改正をしようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-172",
+      "officialNumber": "議案第172号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第172号",
+          "officialRaw": "議案第172号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "議決更正について（姫路市姫路東消防署新築（建築）工事請負契約に係る議決更正）",
+          "officialRaw": "議決更正について（姫路市姫路東消防署新築（建築）工事請負契約に係る議決更正）"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［契約金額を増額しようとするもの］",
+          "officialRaw": "［契約金額を増額しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "bill-173",
+      "officialNumber": "議案第173号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議案第173号",
+          "officialRaw": "議案第173号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "公平委員会委員の選任について",
+          "officialRaw": "公平委員会委員の選任について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［前川敏幸委員の任期満了に伴い、適任と認める同氏を再任しようとするもの］",
+          "officialRaw": "［前川敏幸委員の任期満了に伴い、適任と認める同氏を再任しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "同意",
+          "officialRaw": "同意"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-1",
+      "officialNumber": "諮問第1号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第1号",
+          "officialRaw": "諮問第1号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［岡本雅弘委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］",
+          "officialRaw": "［岡本雅弘委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-2",
+      "officialNumber": "諮問第2号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第2号",
+          "officialRaw": "諮問第2号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［加堂雅男委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］",
+          "officialRaw": "［加堂雅男委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-3",
+      "officialNumber": "諮問第3号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第3号",
+          "officialRaw": "諮問第3号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［杉森惠子委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］",
+          "officialRaw": "［杉森惠子委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-4",
+      "officialNumber": "諮問第4号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第4号",
+          "officialRaw": "諮問第4号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［福田隆行委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］",
+          "officialRaw": "［福田隆行委員の任期満了に伴い、適任と認める同氏を候補者として再推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-5",
+      "officialNumber": "諮問第5号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第5号",
+          "officialRaw": "諮問第5号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［東海廣子委員の任期満了に伴い、後任として適任と認める石田日出夫氏を新たに候補者として推薦しようとするもの］",
+          "officialRaw": "［東海廣子委員の任期満了に伴い、後任として適任と認める石田日出夫氏を新たに候補者として推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-6",
+      "officialNumber": "諮問第6号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第6号",
+          "officialRaw": "諮問第6号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［前田きみ代委員の任期満了に伴い、後任として適任と認める小坂雅代氏を新たに候補者として推薦しようとするもの］",
+          "officialRaw": "［前田きみ代委員の任期満了に伴い、後任として適任と認める小坂雅代氏を新たに候補者として推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-7",
+      "officialNumber": "諮問第7号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第7号",
+          "officialRaw": "諮問第7号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［石田和己委員の任期満了に伴い、後任として適任と認める仲嶋充利氏を新たに候補者として推薦しようとするもの］",
+          "officialRaw": "［石田和己委員の任期満了に伴い、後任として適任と認める仲嶋充利氏を新たに候補者として推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-8",
+      "officialNumber": "諮問第8号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第8号",
+          "officialRaw": "諮問第8号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［大垣輝行委員の任期満了に伴い、後任として適任と認める大西正人氏を新たに候補者として推薦しようとするもの］",
+          "officialRaw": "［大垣輝行委員の任期満了に伴い、後任として適任と認める大西正人氏を新たに候補者として推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-9",
+      "officialNumber": "諮問第9号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第9号",
+          "officialRaw": "諮問第9号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［内海行之委員の任期満了に伴い、後任として適任と認める魚谷敏宏氏を新たに候補者として推薦しようとするもの］",
+          "officialRaw": "［内海行之委員の任期満了に伴い、後任として適任と認める魚谷敏宏氏を新たに候補者として推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-10",
+      "officialNumber": "諮問第10号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第10号",
+          "officialRaw": "諮問第10号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［松浦伸郎委員の任期満了に伴い、後任として適任と認める國部伸也氏を新たに候補者として推薦しようとするもの］",
+          "officialRaw": "［松浦伸郎委員の任期満了に伴い、後任として適任と認める國部伸也氏を新たに候補者として推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-11",
+      "officialNumber": "諮問第11号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第11号",
+          "officialRaw": "諮問第11号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［中尾五郎委員の任期満了に伴い、後任として適任と認める髙馬朗氏を新たに候補者として推薦しようとするもの］",
+          "officialRaw": "［中尾五郎委員の任期満了に伴い、後任として適任と認める髙馬朗氏を新たに候補者として推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "inquiry-12",
+      "officialNumber": "諮問第12号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "諮問第12号",
+          "officialRaw": "諮問第12号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "人権擁護委員候補者の推薦について",
+          "officialRaw": "人権擁護委員候補者の推薦について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": "［井上治美委員の任期満了に伴い、後任として適任と認める坂田基秀氏を新たに候補者として推薦しようとするもの］",
+          "officialRaw": "［井上治美委員の任期満了に伴い、後任として適任と認める坂田基秀氏を新たに候補者として推薦しようとするもの］"
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "可決",
+          "officialRaw": "可決"
+        }
+      },
+      "exceptions": [],
+      "humanReviewStatus": "unreviewed"
+    },
+    {
+      "id": "member-bill-7",
+      "officialNumber": "議員提出議案第7号",
+      "status": "exact",
+      "fields": {
+        "officialNumber": {
+          "status": "exact",
+          "storedRaw": "議員提出議案第7号",
+          "officialRaw": "議員提出議案第7号"
+        },
+        "title": {
+          "status": "exact",
+          "storedRaw": "姫路市議会議員定数条例の一部を改正する条例について",
+          "officialRaw": "姫路市議会議員定数条例の一部を改正する条例について"
+        },
+        "officialSummary": {
+          "status": "exact",
+          "storedRaw": null,
+          "officialRaw": null
+        },
+        "result": {
+          "status": "exact",
+          "storedRaw": "否決",
+          "officialRaw": "否決"
+        }
+      },
+      "exceptions": [
+        "公式件名セルに概要の括弧書きがない"
+      ],
+      "humanReviewStatus": "unreviewed"
+    }
+  ],
+  "comparedAt": "2026-09-25T01:03:26+00:00",
+  "officialHtmlSha256": "3b4885c6baa0307fb757ec05c748222519fd7d1a6ccc312903ee385a4efaaec3",
+  "humanReview": {
+    "reviewer": "calico_blanket（猫柄毛布）",
+    "checkedAt": "2026-09-25T15:56:15+00:00",
+    "method": "例外・差分がある議案を含め、残り全件を一括でverifiedにした（個別の目視照合は行っていない）",
+    "verifiedItemIds": [
+      "bill-136",
+      "bill-145",
+      "bill-164",
+      "bill-165",
+      "bill-166",
+      "member-bill-7"
+    ],
+    "excludedItemIds": []
+  }
+}

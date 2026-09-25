@@ -1,0 +1,20 @@
+[
+  {
+    "itemId": "bill-135",
+    "speakerRaw": "杉本　博昭",
+    "topicRaw": "1　議案第135号令和7年度姫路市一般会計補正予算（第4回）について",
+    "sourceUrl": "https://himeji.gijiroku.com/g07_Shitsumon.asp?kaigi=122&Sflg=2",
+    "sourceSha256": "b7e433b6c40bd5043dca54d2a3b2ec07af53abc6697d58796f5626edb4fd56dd",
+    "retrievedAt": "2026-09-22T15:59:10.587620Z",
+    "reviewStatus": "unreviewed"
+  },
+  {
+    "itemId": "bill-154",
+    "speakerRaw": "西村　しのぶ",
+    "topicRaw": "4　議案第154号　土地の取得について",
+    "sourceUrl": "https://himeji.gijiroku.com/g07_Shitsumon.asp?kaigi=122&Sflg=2",
+    "sourceSha256": "b7e433b6c40bd5043dca54d2a3b2ec07af53abc6697d58796f5626edb4fd56dd",
+    "retrievedAt": "2026-09-22T15:59:10.587620Z",
+    "reviewStatus": "unreviewed"
+  }
+]

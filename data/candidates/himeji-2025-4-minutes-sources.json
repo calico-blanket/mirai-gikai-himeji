@@ -1,0 +1,77 @@
+{
+  "sessionId": "himeji-2025-4",
+  "scope": "plenary_only",
+  "indexSource": {
+    "snapshotFile": "himeji-2025-4-minutes-index.json",
+    "retrievalUrl": "https://himeji.gijiroku.com/voices2/cgi/VoiJson.exe?AA=100&CA=0%2C1%2C2%2C3&DA=1&KA=%E4%BB%A4%E5%92%8C7%E5%B9%B4%E7%AC%AC4%E5%9B%9E%E5%AE%9A%E4%BE%8B%E4%BC%9A&BB=1&FB=1&BA=0&XA=50&QA=1&ZA=UTF8",
+    "retrievedAt": "2026-09-22T16:27:05.660631Z",
+    "sourceSha256": "e94b2e0047413af8b8ce90d345365c6f5069833b2eb9341d2bb7850ab8151a58"
+  },
+  "sources": [
+    {
+      "snapshotFile": "himeji-2025-4-minutes-2417.json",
+      "retrievalUrl": "https://himeji.gijiroku.com/voices2/cgi/VoiJson.exe?AA=200&OA=2417&RA=HTGN&CA=0%2C1%2C2%2C3&DA=1%2C2%2C3&EB=1&ZA=UTF8",
+      "retrievedAt": "2026-09-22T16:27:05.846225Z",
+      "sourceSha256": "3de202d5242cafe558bf0c637fe0b3293e6605a631901b97b85e2335d04893ff",
+      "recordId": "2417",
+      "meetingTitleRaw": "令和7年第4回定例会",
+      "meetingSubtitleRaw": "11月26日-01号",
+      "meetingDate": "2025-11-26",
+      "speechCount": 19,
+      "url": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2417",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "snapshotFile": "himeji-2025-4-minutes-2418.json",
+      "retrievalUrl": "https://himeji.gijiroku.com/voices2/cgi/VoiJson.exe?AA=200&OA=2418&RA=HTGN&CA=0%2C1%2C2%2C3&DA=1%2C2%2C3&EB=1&ZA=UTF8",
+      "retrievedAt": "2026-09-22T16:23:45.338301Z",
+      "sourceSha256": "3be657a62f3ff64ffd4111200804af6ec8a7f1589d88aad76c5f89a82c6a170e",
+      "recordId": "2418",
+      "meetingTitleRaw": "令和7年第4回定例会",
+      "meetingSubtitleRaw": "12月04日-02号",
+      "meetingDate": "2025-12-04",
+      "speechCount": 227,
+      "url": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2418",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "snapshotFile": "himeji-2025-4-minutes-2419.json",
+      "retrievalUrl": "https://himeji.gijiroku.com/voices2/cgi/VoiJson.exe?AA=200&OA=2419&RA=HTGN&CA=0%2C1%2C2%2C3&DA=1%2C2%2C3&EB=1&ZA=UTF8",
+      "retrievedAt": "2026-09-22T16:27:06.333959Z",
+      "sourceSha256": "5e91409a69e9e2263f05c80a9ad57fd85d20b0a8f8f52f202fb1bc0ee07f23d2",
+      "recordId": "2419",
+      "meetingTitleRaw": "令和7年第4回定例会",
+      "meetingSubtitleRaw": "12月05日-03号",
+      "meetingDate": "2025-12-05",
+      "speechCount": 208,
+      "url": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2419",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "snapshotFile": "himeji-2025-4-minutes-2420.json",
+      "retrievalUrl": "https://himeji.gijiroku.com/voices2/cgi/VoiJson.exe?AA=200&OA=2420&RA=HTGN&CA=0%2C1%2C2%2C3&DA=1%2C2%2C3&EB=1&ZA=UTF8",
+      "retrievedAt": "2026-09-22T16:27:06.669714Z",
+      "sourceSha256": "f8d5b3b329f9a83f34e11afbe080e9ed40c74c2ab0ef202e84853dbe5516c19b",
+      "recordId": "2420",
+      "meetingTitleRaw": "令和7年第4回定例会",
+      "meetingSubtitleRaw": "12月08日-04号",
+      "meetingDate": "2025-12-08",
+      "speechCount": 141,
+      "url": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2420",
+      "reviewStatus": "unreviewed"
+    },
+    {
+      "snapshotFile": "himeji-2025-4-minutes-2433.json",
+      "retrievalUrl": "https://himeji.gijiroku.com/voices2/cgi/VoiJson.exe?AA=200&OA=2433&RA=HTGN&CA=0%2C1%2C2%2C3&DA=1%2C2%2C3&EB=1&ZA=UTF8",
+      "retrievedAt": "2026-09-22T16:27:06.883426Z",
+      "sourceSha256": "a8e7e76a8bfd66049d49f8f4a69c10c25f727d558caefe30aa015a1de67f08a4",
+      "recordId": "2433",
+      "meetingTitleRaw": "令和7年第4回定例会",
+      "meetingSubtitleRaw": "12月19日-05号",
+      "meetingDate": "2025-12-19",
+      "speechCount": 66,
+      "url": "https://himeji.gijiroku.com/voices2/minutes.html?FINO=2433",
+      "reviewStatus": "unreviewed"
+    }
+  ]
+}

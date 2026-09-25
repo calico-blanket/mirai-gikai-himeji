@@ -1,0 +1,409 @@
+{
+  "sessionId": "himeji-2025-4",
+  "method": "explicit_number_on_pdf_page",
+  "reviewStatus": "unreviewed",
+  "retrievedAt": "2026-09-24T17:15:52+00:00",
+  "sources": [
+    {
+      "label": "12月9日 予算決算委員会全体会",
+      "file": "20251209yosannkessanniinkaizenntaikai.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/20251209yosannkessanniinkaizenntaikai.pdf",
+      "sha256": "beae9a3cf38681c934d6a41ef877ca30c00793cb4ad8f34368e92c89c191f304",
+      "pages": 1
+    },
+    {
+      "label": "12月10日 文教・子育て委員会",
+      "file": "1210bunnkyoukosodate.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/1210bunnkyoukosodate.pdf",
+      "sha256": "acc2f456a33c404ef08a014dd453ab903f71d9fb647e660fbdd1fd821cced308",
+      "pages": 15
+    },
+    {
+      "label": "12月10日 厚生委員会",
+      "file": "1210kousei.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/1210kousei.pdf",
+      "sha256": "b41fd5714edfa0a124ee4ff068b5b9fc665fe9ea25aee091bc76f819bc3877ba",
+      "pages": 8
+    },
+    {
+      "label": "12月10日 経済観光委員会",
+      "file": "20251210keizaikannkou.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/20251210keizaikannkou.pdf",
+      "sha256": "6a88b19d3a05fa777d16151244dfdb9fc1b881e5366d47d42a385b51c7154144",
+      "pages": 7
+    },
+    {
+      "label": "12月10日 予算決算委員会厚生分科会",
+      "file": "1210yosannkessannkousei.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/1210yosannkessannkousei.pdf",
+      "sha256": "10213171ff0525711db31b97e1c211881afb1c3bbd99eab982685615a1cfbd6c",
+      "pages": 2
+    },
+    {
+      "label": "12月10日 予算決算委員会経済観光分科会",
+      "file": "20251210yosannkessanniinnkaibunnkakaki.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/20251210yosannkessanniinnkaibunnkakaki.pdf",
+      "sha256": "6bbe3d2c69061570db5096921bccf64ac1dd7eb84a1a00c2f7e8aae4169bcbef",
+      "pages": 1
+    },
+    {
+      "label": "12月11日 総務委員会",
+      "file": "1211soumu.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/1211soumu.pdf",
+      "sha256": "d78a7d3b2031bd5317d962fb337a690697004cab30b89611a9d087ef48adc3c3",
+      "pages": 10
+    },
+    {
+      "label": "12月11日 建設委員会",
+      "file": "20251211kennsetu.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/20251211kennsetu.pdf",
+      "sha256": "fbf60231be7ca84d83da18167a796b277abfd25589c65b34432ecae54e9d9867",
+      "pages": 6
+    },
+    {
+      "label": "12月11日 予算決算委員会総務分科会",
+      "file": "1211yosannkessansoumu.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/1211yosannkessansoumu.pdf",
+      "sha256": "2213c3406ecbf7e7a999d29df5b0a4fc9a72975c7c349af5b45b859e20823ff1",
+      "pages": 1
+    },
+    {
+      "label": "12月16日 総務委員会",
+      "file": "1216soumu.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/1216soumu.pdf",
+      "sha256": "e09bc54cad1f132bb5554ade101d398d9ea30bc15b68cb5047bc2d86859aa754",
+      "pages": 2
+    },
+    {
+      "label": "12月16日 文教・子育て委員会",
+      "file": "1216bunnkyoukosodate.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/1216bunnkyoukosodate.pdf",
+      "sha256": "36c995590f0b18f2b1cf228c34e1e756bfb5cac42592a5d8180735d3f48eb705",
+      "pages": 1
+    },
+    {
+      "label": "12月16日 予算決算委員会全体会",
+      "file": "20251216yosannkessanniinnkai.pdf",
+      "url": "https://www.city.himeji.lg.jp/shisei/cmsfiles/contents/0000030/30346/20251216yosannkessanniinnkai.pdf",
+      "sha256": "255d0920399e11dd156b5de90db8426d69000d8fb5f1e82c12dd419d8739ce67",
+      "pages": 2
+    }
+  ],
+  "rows": [
+    {
+      "itemId": "bill-135",
+      "file": "20251209yosannkessanniinkaizenntaikai.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-136",
+      "file": "20251209yosannkessanniinkaizenntaikai.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-139",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-140",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-141",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-142",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-141",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 2
+    },
+    {
+      "itemId": "bill-150",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 6
+    },
+    {
+      "itemId": "bill-153",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 6
+    },
+    {
+      "itemId": "bill-158",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 6
+    },
+    {
+      "itemId": "bill-139",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 14
+    },
+    {
+      "itemId": "bill-141",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 14
+    },
+    {
+      "itemId": "bill-142",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 14
+    },
+    {
+      "itemId": "bill-140",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 15
+    },
+    {
+      "itemId": "bill-150",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 15
+    },
+    {
+      "itemId": "bill-158",
+      "file": "1210bunnkyoukosodate.pdf",
+      "page": 15
+    },
+    {
+      "itemId": "bill-149",
+      "file": "1210kousei.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-138",
+      "file": "1210kousei.pdf",
+      "page": 3
+    },
+    {
+      "itemId": "bill-155",
+      "file": "1210kousei.pdf",
+      "page": 3
+    },
+    {
+      "itemId": "bill-138",
+      "file": "1210kousei.pdf",
+      "page": 8
+    },
+    {
+      "itemId": "bill-149",
+      "file": "1210kousei.pdf",
+      "page": 8
+    },
+    {
+      "itemId": "bill-155",
+      "file": "1210kousei.pdf",
+      "page": 8
+    },
+    {
+      "itemId": "bill-143",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-144",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-145",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-146",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-152",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-154",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-156",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-157",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-163",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-143",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 2
+    },
+    {
+      "itemId": "bill-152",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 2
+    },
+    {
+      "itemId": "bill-154",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 3
+    },
+    {
+      "itemId": "bill-157",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 3
+    },
+    {
+      "itemId": "bill-163",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 3
+    },
+    {
+      "itemId": "bill-163",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 4
+    },
+    {
+      "itemId": "bill-151",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 5
+    },
+    {
+      "itemId": "bill-143",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 7
+    },
+    {
+      "itemId": "bill-146",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 7
+    },
+    {
+      "itemId": "bill-151",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 7
+    },
+    {
+      "itemId": "bill-154",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 7
+    },
+    {
+      "itemId": "bill-156",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 7
+    },
+    {
+      "itemId": "bill-157",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 7
+    },
+    {
+      "itemId": "bill-163",
+      "file": "20251210keizaikannkou.pdf",
+      "page": 7
+    },
+    {
+      "itemId": "bill-135",
+      "file": "1210yosannkessannkousei.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-136",
+      "file": "1210yosannkessannkousei.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-135",
+      "file": "20251210yosannkessanniinnkaibunnkakaki.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-159",
+      "file": "1211soumu.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-137",
+      "file": "1211soumu.pdf",
+      "page": 5
+    },
+    {
+      "itemId": "bill-160",
+      "file": "1211soumu.pdf",
+      "page": 6
+    },
+    {
+      "itemId": "bill-161",
+      "file": "1211soumu.pdf",
+      "page": 6
+    },
+    {
+      "itemId": "bill-162",
+      "file": "1211soumu.pdf",
+      "page": 6
+    },
+    {
+      "itemId": "bill-137",
+      "file": "1211soumu.pdf",
+      "page": 10
+    },
+    {
+      "itemId": "bill-159",
+      "file": "1211soumu.pdf",
+      "page": 10
+    },
+    {
+      "itemId": "bill-162",
+      "file": "1211soumu.pdf",
+      "page": 10
+    },
+    {
+      "itemId": "bill-147",
+      "file": "20251211kennsetu.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-147",
+      "file": "20251211kennsetu.pdf",
+      "page": 2
+    },
+    {
+      "itemId": "bill-148",
+      "file": "20251211kennsetu.pdf",
+      "page": 5
+    },
+    {
+      "itemId": "bill-147",
+      "file": "20251211kennsetu.pdf",
+      "page": 6
+    },
+    {
+      "itemId": "bill-148",
+      "file": "20251211kennsetu.pdf",
+      "page": 6
+    },
+    {
+      "itemId": "bill-135",
+      "file": "20251216yosannkessanniinnkai.pdf",
+      "page": 1
+    },
+    {
+      "itemId": "bill-136",
+      "file": "20251216yosannkessanniinnkai.pdf",
+      "page": 1
+    }
+  ]
+}
