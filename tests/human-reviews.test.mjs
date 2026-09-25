@@ -19,11 +19,16 @@ function example(overrides = {}) {
   };
 }
 
-test("保存済み記録は空で、既存の票を一件も確認済みにしない", () => {
-  const records = validateHumanReviews(saved, data, positions, pdfSha256, sourceUrl);
+test("記録が空なら、既存の票を一件も確認済みにしない", () => {
+  const records = validateHumanReviews([], data, positions, pdfSha256, sourceUrl);
   assert.equal(records.length, 0);
   assert.equal(reviewedVoteIds(records, data, positions).size, 0);
   assert.equal(data.votes.filter((vote) => vote.reviewStatus === "verified").length, 0);
+});
+
+test("保存済み記録は現在のPDF候補と整合する", () => {
+  const records = validateHumanReviews(saved, data, positions, pdfSha256, sourceUrl);
+  assert.equal(records.length, saved.length);
 });
 
 test("指定したPDFの2セルだけを確認済みとして投影する", () => {
