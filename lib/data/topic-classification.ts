@@ -19,11 +19,12 @@ export const topicPolicy = { taxonomyVersion: "himeji-topics-1", promptVersion: 
 const sha = (value: unknown) => createHash("sha256").update(JSON.stringify(value)).digest("hex");
 const hashSchema = z.string().regex(/^[0-9a-f]{64}$/);
 const officialUrl = z.url().refine((value) => ["www.city.himeji.lg.jp", "himeji.gijiroku.com"].includes(new URL(value).hostname) && new URL(value).protocol === "https:");
+// reviewStatus（人による確認状態）は原文の内容ではないため入力に含めない。
+// 含めると、原文が同じでも確認状態が変わるたびに分類・説明の再生成が必要になってしまう。
 const fieldSchema = z.strictObject({
   field: z.enum(["officialNumber", "title", "officialSummary"]),
   state: z.enum(["known", "not_collected", "not_in_official_source", "unknown"]),
   raw: z.string().nullable(), sourceUrl: officialUrl, retrievedAt: z.iso.datetime({ offset: true }),
-  reviewStatus: z.enum(["unreviewed", "verified", "needs_correction"]),
 });
 export const topicInputSchema = z.strictObject({
   sessionId: z.literal("himeji-2025-4"), itemId: z.string().min(1),
@@ -42,7 +43,7 @@ export function makeTopicInput(item: Item, sources: Source[], proposal?: Discuss
       const evidence = item.fieldEvidence[field];
       const source = sources.find((entry) => entry.id === evidence.sourceId);
       if (!source) throw new Error("分類入力の出典参照が不正です");
-      return { field, state: item[field].state, raw: item[field].raw, sourceUrl: source.url, retrievedAt: evidence.retrievedAt, reviewStatus: evidence.reviewStatus };
+      return { field, state: item[field].state, raw: item[field].raw, sourceUrl: source.url, retrievedAt: evidence.retrievedAt };
     }),
     proposal: proposal ? {
       raw: proposal.excerptRaw, sourceUrl: proposal.url, retrievedAt: proposal.source.retrievedAt,

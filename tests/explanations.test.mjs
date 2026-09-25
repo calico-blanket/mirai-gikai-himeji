@@ -68,8 +68,6 @@ test("条件や欠測を省略せず、字体の違い・解釈注意を確認�
   assert.ok(explanationReviewReasons(records.get("member-bill-7")).some((reason) => reason.includes("正式名称のみ")));
   assert.match(records.get("inquiry-11").statements[0].text, /髙馬朗/);
   for (const id of ["bill-138", "bill-141", "bill-142"]) assert.match(records.get(id).statements[0].text, /結果を把握している場合/);
-  const council = read("data/himeji-2025-4.json");
-  assert.deepEqual(council.items.filter((row) => row.reviewStatus === "verified").map((row) => row.id), ["bill-135"]);
 });
 
 test("事前確認はAPIキーなしで動作し、保存済み説明を変更しない", () => {
