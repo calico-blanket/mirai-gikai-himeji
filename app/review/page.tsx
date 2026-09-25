@@ -14,6 +14,7 @@ import TopicReviewForm from "./TopicReviewForm";
 import ExplanationReview from "./ExplanationReview";
 import ContentReviewSection from "./ContentReviewSection";
 import { contentReviews } from "../../lib/data/content-review-data";
+import { checkVoteConsistency } from "../../lib/data/vote-consistency";
 
 export const metadata: Metadata = { title: "原資料との確認箇所 | 姫路の議会を知る" };
 
@@ -33,6 +34,9 @@ export default function ReviewPage() {
   const pendingItems = council.items.filter((item) => item.reviewStatus !== "verified");
   const pendingVotes = voteCandidates.votes.filter((vote) => !confirmedVoteIds.has(vote.id));
   const reviewedHeaders = new Set(humanReviews.filter((record) => record.kind === "headers" && record.decision === "verified").flatMap((record) => Array.from({ length: record.columnEnd - record.columnStart + 1 }, (_, index) => record.columnStart + index)));
+  const voteConsistency = checkVoteConsistency(council.items, voteCandidates.votes);
+  const inconsistentVotes = voteConsistency.filter((row) => !row.consistent);
+  const splitVotes = voteConsistency.filter((row) => row.consistent && row.againstCount > 0);
 
   return (
     <article className={styles.page}>
@@ -106,6 +110,26 @@ export default function ReviewPage() {
           <li><a href={officialSource.url}>姫路市公式の議案・審議結果HTML</a>で議案番号を探し、<Link href="/gians">このサイトの議案詳細</Link>にある「公式に掲載された内容」の4項目と見比べます。「公式概要に記載なし」とある場合は、公式の件名セルに概要の角括弧がないか確認します。</li>
           <li>各議案詳細のPDFページ・行を手掛かりに<a href={pdfSource.url}>公式の採決結果PDF</a>を開き、議員名・会派見出し・原記号を見比べます。画面の賛否は確認が終わるまで機械抽出候補です。</li>
         </ol>
+      </section>
+
+      <section className={styles.section} aria-labelledby="vote-priority-heading">
+        <h2 id="vote-priority-heading">議員別賛否は、まずどこから見るか</h2>
+        <p>45人×52議案＝{voteCandidates.votes.length}件を一度に確認するのは大変です。ここでは、賛成・反対の集計を議決結果と機械的に突き合わせた結果だけを手掛かりに、見る順番の参考を示します。一致していることは確認済みを意味しません。個々の議員の賛否は、この集計とは別に原PDFとの照合が必要です。</p>
+        {inconsistentVotes.length > 0 && <>
+          <p><strong>集計が議決結果と一致しない{inconsistentVotes.length}件（最優先）</strong></p>
+          <ul className={styles.list}>{inconsistentVotes.map((row) => {
+            const item = council.items.find((entry) => entry.id === row.itemId)!;
+            const position = pdfLocations.get(row.itemId)!;
+            return <li key={row.itemId}><Link href={`/gians/${row.itemId}`}>{item.officialNumber.raw}の詳細</Link><span>議決：{item.result.raw} ／ 候補の賛成{row.forCount}・反対{row.againstCount} ／ PDF {position.page}ページ・{position.row}行</span></li>;
+          })}</ul>
+        </>}
+        <p><strong>反対票を含む{splitVotes.length}件（次に見てほしい）</strong></p>
+        <p>残り{52 - splitVotes.length - inconsistentVotes.length}件は候補上の反対票がゼロです。反対がないことは全会一致を意味せず、未取得・不明の記号を含む場合があります。</p>
+        <ul className={styles.list}>{splitVotes.map((row) => {
+          const item = council.items.find((entry) => entry.id === row.itemId)!;
+          const position = pdfLocations.get(row.itemId)!;
+          return <li key={row.itemId}><Link href={`/gians/${row.itemId}`}>{item.officialNumber.raw}の詳細</Link><span>議決：{item.result.raw} ／ 候補の賛成{row.forCount}・反対{row.againstCount} ／ PDF {position.page}ページ・{position.row}行</span></li>;
+        })}</ul>
       </section>
 
       <section className={styles.section} aria-labelledby="priority-heading">
